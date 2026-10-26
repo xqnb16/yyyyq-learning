@@ -1,0 +1,1339 @@
+{
+  "schemaVersion": 1,
+  "license": "CC BY-SA 4.0",
+  "sourceCommit": "862062deafccfbb0aa1a95e5c77300f31c4226c1",
+  "sourceFiles": [
+    {
+      "file": "sentence-elements.py",
+      "path": "content/sentence-elements.py",
+      "sha256": "a31ac3caac3c2347a1c0acf769d0dcf73402ea1850955421ccb33b8dd80ada89",
+      "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/sentence-elements.py"
+    },
+    {
+      "file": "cet4-build.py",
+      "path": "build.py",
+      "sha256": "0cdeba1f4ff90c9f25917e80f3b5011596743819155c1705b4b0abab82178e5d",
+      "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/build.py"
+    }
+  ],
+  "unit": {
+    "id": "cet4-long-sentence",
+    "trackId": "cet4",
+    "title": "从句与非谓语",
+    "goal": "识别从句、分词和逻辑连接的范围，读懂修饰与主张的区别。",
+    "prerequisites": "建议先学“句子主干与时态”。句子均为原创教学情境，不是四级真题；选择题只检查理解，不等同写作或翻译能力测评。",
+    "sourceInfo": {
+      "title": "高校英语语法双语课件 · 四级前置讲解改编",
+      "publisher": "Adam Wang / YYYYQ 教学改编",
+      "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/tree/862062deafccfbb0aa1a95e5c77300f31c4226c1",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Adam Wang · english-grammar-bilingual-slides；YYYYQ 改编、中文补充及原创训练。",
+      "adaptationNote": "依据固定版本的句子成分、时态、主谓一致、被动、从句与非谓语教学内容重新组织；修订“一句只有一个动词”、时态信号词、关系词与分词的绝对化说法。例句和全部测验另行编写，非四级真题；本单元导出包按 CC BY-SA 4.0 共享。未执行源程序，未复制 AGPL 演示模板。",
+      "downloadUrl": "/open-materials/cet4-long-sentence.json"
+    },
+    "lessons": [
+      {
+        "id": "cet4-long-sentence-01",
+        "title": "定语从句：把修饰接回名词",
+        "goal": "判断先行词、从句缺少的成分和主句核心。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-long-relative",
+            "title": "先找被修饰的名词，再看从句缺什么",
+            "explanation": "定语从句限定或补充一个名词。关系词在从句里可以作主语、宾语等成分；who 指人，which 指物，that 常用于限制性从句。不要把宾语重复一次，例如 the report that I read 后不能再加 it。限制性从句的宾语关系词有时可省，主语关系词通常不能直接省掉。",
+            "examples": [
+              {
+                "sentence": "The student who organised the meeting sent us the notes.",
+                "translation": "组织会议的那位学生把记录发给了我们。",
+                "note": "who 在从句作主语；主句是 The student sent us the notes。"
+              },
+              {
+                "sentence": "The report that we discussed yesterday is online.",
+                "translation": "我们昨天讨论的那份报告已在网上。",
+                "note": "that 作 discussed 的宾语；这里也可以省略 that。"
+              }
+            ]
+          },
+          {
+            "id": "c4-long-relative-role",
+            "title": "地点名词后也不一定用 where",
+            "explanation": "where 在从句中表示地点关系，which/that 则可补宾语。the library where we study 与 the library that we visited 的区别在于 study 的地点与 visited 的宾语，不只在于 library 是地点。whose 表所属，也能指物。最高级后常偏好 that，但不能把所有偏好都写成唯一合法形式；非限制性从句中通常用 who/which，不用 that。",
+            "examples": [
+              {
+                "sentence": "The room where we held the interview is upstairs.",
+                "translation": "我们举行访谈的房间在楼上。",
+                "note": "where 相当于 in which，提供地点关系。"
+              },
+              {
+                "sentence": "The organisation whose website was updated offers free advice.",
+                "translation": "那家更新了网站的机构提供免费建议。",
+                "note": "whose website 表所属；whose 不只用于人。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-long-sentence-01-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择在从句中作主语、指人的关系词。",
+            "context": "The volunteer ___ answered my email works on Mondays.",
+            "options": [
+              "who",
+              "whom",
+              "whose",
+              "where"
+            ],
+            "correctOption": 0,
+            "explanation": "从句缺少主语且先行词是 volunteer，用 who。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-01",
+            "analysis": {
+              "summary": "从句缺少主语且先行词是 volunteer，用 who。",
+              "evidence": "The volunteer ___ answered my email works on Mondays.",
+              "knowledgePoints": [
+                "关系词的从句成分"
+              ],
+              "optionAnalysis": [
+                "从句缺少主语且先行词是 volunteer，用 who。",
+                "whom 是宾格形式，不能在这里作 answered 的主语。",
+                "whose 通常要限定后面的名词，此处后面直接是动词 answered。",
+                "where 表地点关系，不能补回答邮件的人这一主语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-01-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择结构完整的句子。",
+            "context": "表达“我昨天借的那本书在桌上”。",
+            "options": [
+              "The book that I borrowed it yesterday is on the desk.",
+              "The book that I borrowed yesterday is on the desk.",
+              "The book where I borrowed yesterday is on the desk.",
+              "The book whose I borrowed yesterday is on the desk."
+            ],
+            "correctOption": 1,
+            "explanation": "that 在从句作 borrowed 的宾语，不再重复 it。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-01",
+            "analysis": {
+              "summary": "that 在从句作 borrowed 的宾语，不再重复 it。",
+              "evidence": "表达“我昨天借的那本书在桌上”。",
+              "knowledgePoints": [
+                "避免重复宾语"
+              ],
+              "optionAnalysis": [
+                "that 已对应 borrowed 的宾语，额外的 it 重复了该位置。",
+                "that 在从句作 borrowed 的宾语，不再重复 it。",
+                "borrowed 缺少宾语；where 不能补上书这一对象。",
+                "whose 后没有被限定的名词，不能直接代替此处宾语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-01-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择提供地点关系的词。",
+            "context": "This is the laboratory ___ the students carry out their experiments.",
+            "options": [
+              "which",
+              "who",
+              "where",
+              "whose"
+            ],
+            "correctOption": 2,
+            "explanation": "实验在实验室内进行，用 where；也可写 in which，但不是单独的 which。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-01",
+            "analysis": {
+              "summary": "实验在实验室内进行，用 where；也可写 in which，但不是单独的 which。",
+              "evidence": "This is the laboratory ___ the students carry out their experiments.",
+              "knowledgePoints": [
+                "地点关系"
+              ],
+              "optionAnalysis": [
+                "从句已有宾语 experiments，which 单独不能提供“在其中”的地点关系。",
+                "laboratory 是地点而非人，who 也不能提供地点状语。",
+                "实验在实验室内进行，用 where；也可写 in which，但不是单独的 which。",
+                "whose 需要所属结构，这里没有这样的名词搭配。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-01-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择补上 visited 宾语的词。",
+            "context": "The laboratory ___ we visited last month has new equipment.",
+            "options": [
+              "where",
+              "whose",
+              "when",
+              "which"
+            ],
+            "correctOption": 3,
+            "explanation": "we visited the laboratory，因此从句缺宾语，使用 which。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-01",
+            "analysis": {
+              "summary": "we visited the laboratory，因此从句缺宾语，使用 which。",
+              "evidence": "The laboratory ___ we visited last month has new equipment.",
+              "knowledgePoints": [
+                "地点先行词不机械用 where"
+              ],
+              "optionAnalysis": [
+                "visit 在此为及物动词，缺的是宾语，不是地点状语。",
+                "whose 后须有限定的名词，这里直接是 we visited。",
+                "when 提供时间关系，不能补上参观的对象。",
+                "we visited the laboratory，因此从句缺宾语，使用 which。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-01-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择表达所属关系的词。",
+            "context": "The charity ___ website we used has changed its address.",
+            "options": [
+              "whose",
+              "who",
+              "whom",
+              "where"
+            ],
+            "correctOption": 0,
+            "explanation": "whose website 表示该慈善机构的网站，whose 也能用于组织。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-01",
+            "analysis": {
+              "summary": "whose website 表示该慈善机构的网站，whose 也能用于组织。",
+              "evidence": "The charity ___ website we used has changed its address.",
+              "knowledgePoints": [
+                "whose 的范围"
+              ],
+              "optionAnalysis": [
+                "whose website 表示该慈善机构的网站，whose 也能用于组织。",
+                "who 不能在 website 前表达该机构的网站这一所属关系。",
+                "whom 是宾格形式，不能直接限定 website。",
+                "where 表地点，不能替代 website 前的所有限定。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-01-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选出主句的核心信息。",
+            "context": "The training course that the company introduced in May has attracted many beginners.",
+            "options": [
+              "The company has attracted the training course.",
+              "The training course has attracted many beginners.",
+              "Many beginners introduced the company.",
+              "May introduced a training course."
+            ],
+            "correctOption": 1,
+            "explanation": "that 到 May 限定 course；主句主语 course 对应 has attracted。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-01",
+            "analysis": {
+              "summary": "that 到 May 限定 course；主句主语 course 对应 has attracted。",
+              "evidence": "The training course that the company introduced in May has attracted many beginners.",
+              "knowledgePoints": [
+                "主从句分层"
+              ],
+              "optionAnalysis": [
+                "公司是从句的主语，不是主句 has attracted 的主语。",
+                "that 到 May 限定 course；主句主语 course 对应 has attracted。",
+                "这交换了动作的参与者，不保留原句关系。",
+                "May 是时间，不是执行 introduced 的人或机构。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cet4-long-sentence-02",
+        "title": "名词性从句：整段充当一个成分",
+        "goal": "区分 that、what、whether 的作用，并保留陈述语序。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-long-noun",
+            "title": "连接一件事，与补上“什么”不同",
+            "explanation": "名词性从句可以整体作主语、宾语或表语。I understand that the plan has changed 中，that 只连接一个完整陈述；I understand what the team needs 中，what 同时补 needs 的宾语，表示团队需要的东西。不能只看主句 understand 就决定用 that，要检查从句内的成分。",
+            "examples": [
+              {
+                "sentence": "The report shows that the service is popular.",
+                "translation": "报告表明这项服务很受欢迎。",
+                "note": "the service is popular 已是完整陈述，that 不充当它的主语或宾语。"
+              },
+              {
+                "sentence": "What the visitors need is a clear map.",
+                "translation": "访客需要的是一张清晰的地图。",
+                "note": "what 补 need 的宾语；整个 What the visitors need 作主语。"
+              }
+            ]
+          },
+          {
+            "id": "c4-long-noun-order",
+            "title": "嵌入句子后，不照搬直接问句",
+            "explanation": "宾语从句通常用陈述语序，例如 where the office is，而不是 where is the office。whether 表“是否”，可作介词后的引导词；普通动词后的是否宾语从句里 if/whether 常都能用，不能硬设其中一个为错。主句为过去时时常发生时态回移，但仍然成立的事实也可保留现在时，本批不把过去主句机械等同全部回移。",
+            "examples": [
+              {
+                "sentence": "Could you tell me when the session starts?",
+                "translation": "你能告诉我这场活动什么时候开始吗？",
+                "note": "从句用 the session starts，不用 does the session start。"
+              },
+              {
+                "sentence": "The decision depends on whether enough people register.",
+                "translation": "决定取决于是否有足够的人报名。",
+                "note": "介词 on 后用 whether，不用 if。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-long-sentence-02-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择只连接完整陈述的词。",
+            "context": "The results suggest ___ the new timetable is more convenient.",
+            "options": [
+              "that",
+              "what",
+              "who",
+              "whose"
+            ],
+            "correctOption": 0,
+            "explanation": "从句完整，that 只起连接作用。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-02",
+            "analysis": {
+              "summary": "从句完整，that 只起连接作用。",
+              "evidence": "The results suggest ___ the new timetable is more convenient.",
+              "knowledgePoints": [
+                "that 连接陈述"
+              ],
+              "optionAnalysis": [
+                "从句完整，that 只起连接作用。",
+                "the new timetable is more convenient 成分完整，不需要 what 补主语或宾语。",
+                "这里不是询问某个人，也不缺指人的主语或宾语。",
+                "whose 需要限定一个名词，不能直接连接这个完整陈述。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-02-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择补上 need 的宾语、表示“我们需要的东西”的词。",
+            "context": "___ we need is a more reliable recording.",
+            "options": [
+              "That",
+              "What",
+              "Whether",
+              "Because"
+            ],
+            "correctOption": 1,
+            "explanation": "What we need 整体作主语，what 在内部作 need 的宾语。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-02",
+            "analysis": {
+              "summary": "What we need 整体作主语，what 在内部作 need 的宾语。",
+              "evidence": "___ we need is a more reliable recording.",
+              "knowledgePoints": [
+                "what 的双重作用"
+              ],
+              "optionAnalysis": [
+                "need 缺宾语；that 不承担这个宾语角色。",
+                "What we need 整体作主语，what 在内部作 need 的宾语。",
+                "whether 表是否，不能补 need 的对象。",
+                "because 表原因，不能提供这里所需的名词性成分。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-02-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择正确的宾语从句语序。",
+            "context": "Do you know ___?",
+            "options": [
+              "where is the interview room",
+              "where does the interview room is",
+              "where the interview room is",
+              "where the interview room"
+            ],
+            "correctOption": 2,
+            "explanation": "宾语从句按 the interview room is 的陈述语序排列。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-02",
+            "analysis": {
+              "summary": "宾语从句按 the interview room is 的陈述语序排列。",
+              "evidence": "Do you know ___?",
+              "knowledgePoints": [
+                "嵌入问句语序"
+              ],
+              "optionAnalysis": [
+                "这照搬了直接问句的倒装，宾语从句通常用陈述语序。",
+                "does 不能这样与 is 连用，而且保留了错误的问句结构。",
+                "宾语从句按 the interview room is 的陈述语序排列。",
+                "只有名词词组而缺少从句所需的谓语 is。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-02-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择介词后的“是否”。",
+            "context": "They talked about ___ the plan would work.",
+            "options": [
+              "if",
+              "that",
+              "what",
+              "whether"
+            ],
+            "correctOption": 3,
+            "explanation": "about whether 引出所讨论的不确定事项。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-02",
+            "analysis": {
+              "summary": "about whether 引出所讨论的不确定事项。",
+              "evidence": "They talked about ___ the plan would work.",
+              "knowledgePoints": [
+                "介词后的 whether"
+              ],
+              "optionAnalysis": [
+                "表示是否的从句直接置于介词 about 后，标准书面表达用 whether。",
+                "that 不表达此处讨论方案能否奏效的“是否”含义。",
+                "the plan would work 已完整，what 不能补出是否关系。",
+                "about whether 引出所讨论的不确定事项。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-02-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "这句话的主语是什么？",
+            "context": "What the volunteers suggested was accepted.",
+            "options": [
+              "What the volunteers suggested 整个从句。",
+              "the volunteers 单独作主句主语。",
+              "was accepted。",
+              "suggested 单独作主句主语。"
+            ],
+            "correctOption": 0,
+            "explanation": "被接受的是志愿者所提出的建议，因此整个 What 从句作主语。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-02",
+            "analysis": {
+              "summary": "被接受的是志愿者所提出的建议，因此整个 What 从句作主语。",
+              "evidence": "What the volunteers suggested was accepted.",
+              "knowledgePoints": [
+                "名词性从句整体作用"
+              ],
+              "optionAnalysis": [
+                "被接受的是志愿者所提出的建议，因此整个 What 从句作主语。",
+                "volunteers 是内部 suggested 的主语；主句主语是整个建议内容。",
+                "was accepted 是主句的被动谓语，不是主语。",
+                "suggested 是内部谓语，不能单独代表整个名词性从句。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-02-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择包含完整陈述语序的从句。",
+            "context": "Please tell us ___.",
+            "options": [
+              "when does the next workshop begin",
+              "when the next workshop begins",
+              "when the next workshop begin",
+              "when beginning the next workshop"
+            ],
+            "correctOption": 1,
+            "explanation": "从句用 workshop begins，不引入 does 倒装。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-02",
+            "analysis": {
+              "summary": "从句用 workshop begins，不引入 does 倒装。",
+              "evidence": "Please tell us ___.",
+              "knowledgePoints": [
+                "从句语序与一致"
+              ],
+              "optionAnalysis": [
+                "这是直接问句的倒装，不适用于这里的宾语从句。",
+                "从句用 workshop begins，不引入 does 倒装。",
+                "workshop 为单数，begins 在一般现在时要加 s。",
+                "这个短语缺少所需的主语和限定谓语，不能表达原定的活动开始时间。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cet4-long-sentence-03",
+        "title": "非谓语：不是每个动词都在作谓语",
+        "goal": "识别 doing、done、to do 的作用及其与主语的关系。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-long-nonfinite",
+            "title": "先确定限定谓语，再判断其他动词",
+            "explanation": "非谓语常以 doing、done、to do 出现，可承担主语、宾语、修饰或目的等作用。The team decided to repeat the test 中 decided 是限定谓语，to repeat 是补足决定内容的不定式。enjoy/finish/mind 后常接 doing；decide/hope 后常接 to do。to 也可能是介词，例如 look forward to meeting，不是所有 to 后都接原形。",
+            "examples": [
+              {
+                "sentence": "The researchers decided to compare two methods.",
+                "translation": "研究人员决定比较两种方法。",
+                "note": "decided 是谓语，to compare 补充决定的内容。"
+              },
+              {
+                "sentence": "The team looks forward to meeting the new participants.",
+                "translation": "团队期待见到新的参与者。",
+                "note": "look forward to 中的 to 是介词，后接 meeting。"
+              }
+            ]
+          },
+          {
+            "id": "c4-long-nonfinite-scope",
+            "title": "主动、被动与感受，要看具体关系",
+            "explanation": "修饰名词时，students waiting outside 表示学生正在等，files stored online 表示文件被存储。不要把 doing/done 机械等同人或物；an interesting speaker 是令人感兴趣的演讲者，interested students 是感兴趣的学生。句首分词短语的逻辑主语通常与主句主语一致；To reduce waste 表目的，不能改成没有关系的被动或并列动作。",
+            "examples": [
+              {
+                "sentence": "The files stored online are easy to find.",
+                "translation": "存储在网上的文件很容易找到。",
+                "note": "stored online 修饰 files；are 才是主句限定谓语。"
+              },
+              {
+                "sentence": "To compare the results, the tutor drew a table.",
+                "translation": "为了比较结果，导师画了一张表。",
+                "note": "to compare 表目的；执行比较和画表的都是导师。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-long-sentence-03-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择 decide 后的自然形式。",
+            "context": "The organisers decided ___ the opening time.",
+            "options": [
+              "to change",
+              "changing",
+              "change",
+              "changed"
+            ],
+            "correctOption": 0,
+            "explanation": "decided to change 表示决定改变；decided 是主句谓语。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-03",
+            "analysis": {
+              "summary": "decided to change 表示决定改变；decided 是主句谓语。",
+              "evidence": "The organisers decided ___ the opening time.",
+              "knowledgePoints": [
+                "decide 加不定式"
+              ],
+              "optionAnalysis": [
+                "decided to change 表示决定改变；decided 是主句谓语。",
+                "decide 在这里后接不定式，而非直接接 changing。",
+                "此处需 to change，不能省去不定式标记 to。",
+                "decided 后不能直接再放过去式 changed 表达决定的内容。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-03-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择介词 to 后的形式。",
+            "context": "We look forward to ___ your suggestions.",
+            "options": [
+              "hear",
+              "hearing",
+              "heard",
+              "hears"
+            ],
+            "correctOption": 1,
+            "explanation": "期待听到建议用 look forward to hearing，不能把这里的 to 当成不定式标记。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-03",
+            "analysis": {
+              "summary": "期待听到建议用 look forward to hearing，不能把这里的 to 当成不定式标记。",
+              "evidence": "We look forward to ___ your suggestions.",
+              "knowledgePoints": [
+                "介词 to 的边界"
+              ],
+              "optionAnalysis": [
+                "look forward to 中 to 为介词，后接动词时用 doing。",
+                "期待听到建议用 look forward to hearing，不能把这里的 to 当成不定式标记。",
+                "heard 是过去式或过去分词，不能在此充当所需动名词。",
+                "hears 是第三人称单数形式，不能放在介词后。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-03-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择表达“被录制的访谈”的修饰形式。",
+            "context": "The interviews ___ last month are now available online.",
+            "options": [
+              "recording",
+              "record",
+              "recorded",
+              "were recorded"
+            ],
+            "correctOption": 2,
+            "explanation": "recorded last month 后置修饰 interviews，主句谓语是 are。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-03",
+            "analysis": {
+              "summary": "recorded last month 后置修饰 interviews，主句谓语是 are。",
+              "evidence": "The interviews ___ last month are now available online.",
+              "knowledgePoints": [
+                "被动分词修饰"
+              ],
+              "optionAnalysis": [
+                "interviews 是被录制的内容，不是执行录音的主体。",
+                "原形不能直接在这里构成名词后的过去分词修饰。",
+                "recorded last month 后置修饰 interviews，主句谓语是 are。",
+                "were recorded 再与 are 构成两个无连接的限定谓语，缺少关系词。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-03-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "哪一项最准确？",
+            "context": "The students waiting outside have registered already.",
+            "options": [
+              "学生被别人等候，且还未报名。",
+              "waiting 是这句话唯一的限定谓语。",
+              "已经报名的人一定不在外面。",
+              "学生在外面等候，且已经报名。"
+            ],
+            "correctOption": 3,
+            "explanation": "waiting outside 修饰 students，have registered 表示已经报名。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-03",
+            "analysis": {
+              "summary": "waiting outside 修饰 students，have registered 表示已经报名。",
+              "evidence": "The students waiting outside have registered already.",
+              "knowledgePoints": [
+                "非谓语与主句信息"
+              ],
+              "optionAnalysis": [
+                "waiting 表学生执行等候，have registered 也不是尚未报名。",
+                "have registered 才是限定谓语，waiting outside 是修饰。",
+                "outside 明确说明这组学生等候的位置，不能否定它。",
+                "waiting outside 修饰 students，have registered 表示已经报名。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-03-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择表达目的的形式。",
+            "context": "___ the two proposals, the committee listed their costs side by side.",
+            "options": [
+              "To compare",
+              "Compared",
+              "Compare",
+              "Has compared"
+            ],
+            "correctOption": 0,
+            "explanation": "To compare 表示列出费用的目的，动作主体为 committee。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-03",
+            "analysis": {
+              "summary": "To compare 表示列出费用的目的，动作主体为 committee。",
+              "evidence": "___ the two proposals, the committee listed their costs side by side.",
+              "knowledgePoints": [
+                "不定式目的"
+              ],
+              "optionAnalysis": [
+                "To compare 表示列出费用的目的，动作主体为 committee。",
+                "committee 在执行比较，而不是自身被比较，不能用此被动分词表达目的。",
+                "原形独立放在这里不能连接到完整主句来表达目的。",
+                "缺少该动词的独立主语，且不能用逗号直接拼接另一谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-03-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "根据句子，interested students 指什么？",
+            "context": "An interesting speaker answered questions from interested students.",
+            "options": [
+              "一定令人厌烦的学生。",
+              "对话题感兴趣的学生。",
+              "唯一能让演讲者感兴趣的人。",
+              "不能用 interested，因为学生是人。"
+            ],
+            "correctOption": 1,
+            "explanation": "interesting 描写演讲者令人感兴趣，interested 描写学生的感受。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-03",
+            "analysis": {
+              "summary": "interesting 描写演讲者令人感兴趣，interested 描写学生的感受。",
+              "evidence": "An interesting speaker answered questions from interested students.",
+              "knowledgePoints": [
+                "感受与引发感受"
+              ],
+              "optionAnalysis": [
+                "interested 表自身感兴趣，不是 boring 的意思。",
+                "interesting 描写演讲者令人感兴趣，interested 描写学生的感受。",
+                "没有唯一性或学生使谁感兴趣的判断。",
+                "感受形容词看语义角色，不按人或物一刀切。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cet4-long-sentence-04",
+        "title": "句间衔接：让步、条件与指代",
+        "goal": "拆完句子后恢复逻辑，不把条件、预测或个案变成无条件结论。",
+        "kind": "reading",
+        "minutes": 14,
+        "sections": [
+          {
+            "id": "c4-long-logic",
+            "title": "连接词决定信息如何相接",
+            "explanation": "although 引出让步，because 引出原因，if 引出条件；它们不表达相同关系。常规书面句中，不能把 Although …, but … 机械按中文成对连用。时间或条件状语从句表达未来时常用现在时，但 I wonder if it will work 中 if 表是否、引出宾语从句，可以出现 will，不能写成“所有 if 从句禁用 will”。",
+            "examples": [
+              {
+                "sentence": "Although the booking page was improved, some students still needed help.",
+                "translation": "虽然预约页面得到改善，一些学生仍然需要帮助。",
+                "note": "让步说明改善并未消除全部困难。"
+              },
+              {
+                "sentence": "If the trial succeeds, the library will extend the service.",
+                "translation": "如果试点成功，图书馆将扩大服务。",
+                "note": "条件尚未确认，不能读成已经决定无条件扩大。"
+              }
+            ]
+          },
+          {
+            "id": "c4-long-reference",
+            "title": "指代与限定要带回全文",
+            "explanation": "this 可以指前一句提到的做法或事实，而非最近的单个名词；判断时要把替换后的句子读通。but 后的限制、only/some 的范围与尚未完成的安排都要保留。下面是一段原创虚构情境，用于检查指代、条件和先后，不是真实试验结论或完整四级模拟阅读。",
+            "examples": [
+              {
+                "sentence": "The team sent a reminder. This helped some participants arrive on time.",
+                "translation": "团队发送了提醒；这一做法帮助一些参与者准时到达。",
+                "note": "This 指发送提醒的做法；some 不等于所有人。"
+              },
+              {
+                "sentence": "The office has not decided whether the trial will continue.",
+                "translation": "办公室尚未决定试点是否继续。",
+                "note": "whether 是是否，不表示已经确定继续。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-long-sentence-04-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "reading",
+            "type": "reading",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "What was the main change in the trial?",
+            "context": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+            "options": [
+              "Students could reserve rooms online instead of visiting the desk to book.",
+              "Keys could be downloaded from the website.",
+              "Students no longer needed to collect keys.",
+              "Every room became available without a reservation."
+            ],
+            "correctOption": 0,
+            "explanation": "Previously 与 During the trial 对照，变化在预订渠道。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-04",
+            "analysis": {
+              "summary": "Previously 与 During the trial 对照，变化在预订渠道。",
+              "evidence": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+              "knowledgePoints": [
+                "衔接中的前后对照"
+              ],
+              "optionAnalysis": [
+                "Previously 与 During the trial 对照，变化在预订渠道。",
+                "原文说仍到服务台取钥匙，没有数字钥匙下载。",
+                "although 后明确保留服务台取钥匙的要求。",
+                "改动是预约方式，不是取消预约或开放所有房间。"
+              ],
+              "strategy": "先确定题干要求，再寻找原文证据；核对人物、时间、数量和条件，不能只匹配相同单词。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-04-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "reading",
+            "type": "reading",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "What does “This” refer to?",
+            "context": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+            "options": [
+              "Having to collect keys at the desk.",
+              "Being able to make reservations online.",
+              "Closing every study room.",
+              "Ending the trial immediately."
+            ],
+            "correctOption": 1,
+            "explanation": "代入 saved a separate trip just to make a reservation，能省下的是线上预约带来的行程。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-04",
+            "analysis": {
+              "summary": "代入 saved a separate trip just to make a reservation，能省下的是线上预约带来的行程。",
+              "evidence": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+              "knowledgePoints": [
+                "整项做法指代"
+              ],
+              "optionAnalysis": [
+                "取钥匙仍需到场，本身不会省去专程预约的那一趟。",
+                "代入 saved a separate trip just to make a reservation，能省下的是线上预约带来的行程。",
+                "原文没有关闭全部自习室的安排。",
+                "原文说尚未决定是否继续，没有已经立即终止。"
+              ],
+              "strategy": "先确定题干要求，再寻找原文证据；核对人物、时间、数量和条件，不能只匹配相同单词。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-04-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "reading",
+            "type": "reading",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "Why is “although” used?",
+            "context": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+            "options": [
+              "To explain why no student could use the website.",
+              "To prove that booking and key collection were the same action.",
+              "To show that collecting keys remained an in-person task despite online booking.",
+              "To state that key collection caused the trial to end."
+            ],
+            "correctOption": 2,
+            "explanation": "although 后保留了线下操作，与线上预约形成让步关系。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-04",
+            "analysis": {
+              "summary": "although 后保留了线下操作，与线上预约形成让步关系。",
+              "evidence": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+              "knowledgePoints": [
+                "让步与限制"
+              ],
+              "optionAnalysis": [
+                "原文允许网上预约，不是说所有人都无法使用网站。",
+                "这两步仍被区别，although 强调数字预约的边界。",
+                "although 后保留了线下操作，与线上预约形成让步关系。",
+                "没有终止试点的决定，也没有这一因果关系。"
+              ],
+              "strategy": "先确定题干要求，再寻找原文证据；核对人物、时间、数量和条件，不能只匹配相同单词。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-04-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "reading",
+            "type": "reading",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "Which statement about the future is supported?",
+            "context": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+            "options": [
+              "The library has already guaranteed permanent expansion.",
+              "The trial will continue regardless of feedback.",
+              "All students have already approved the permanent service.",
+              "Positive feedback would lead the library to consider expansion."
+            ],
+            "correctOption": 3,
+            "explanation": "If 给出条件；will consider 只表示考虑，而非保证扩展。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-04",
+            "analysis": {
+              "summary": "If 给出条件；will consider 只表示考虑，而非保证扩展。",
+              "evidence": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+              "knowledgePoints": [
+                "条件与决定强度"
+              ],
+              "optionAnalysis": [
+                "consider 不等于保证，且尚未决定是否继续。",
+                "最后一句给出反馈条件，不是无条件继续。",
+                "原文没有全体学生批准或永久化的事实。",
+                "If 给出条件；will consider 只表示考虑，而非保证扩展。"
+              ],
+              "strategy": "先确定题干要求，再寻找原文证据；核对人物、时间、数量和条件，不能只匹配相同单词。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-04-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "reading",
+            "type": "reading",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "Which requirement remained during the trial?",
+            "context": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+            "options": [
+              "Collecting keys at the desk.",
+              "Making every reservation at the desk.",
+              "Booking only after the trial ended.",
+              "Submitting positive feedback before every visit."
+            ],
+            "correctOption": 0,
+            "explanation": "keys still had to be collected at the desk 明确保留这一步。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-04",
+            "analysis": {
+              "summary": "keys still had to be collected at the desk 明确保留这一步。",
+              "evidence": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+              "knowledgePoints": [
+                "保留的操作条件"
+              ],
+              "optionAnalysis": [
+                "keys still had to be collected at the desk 明确保留这一步。",
+                "试点允许网上预约，取消了必须到服务台预约这一限制。",
+                "During the trial 明确试点期间即可预约。",
+                "反馈影响未来扩展，原文没有把它设为每次使用前提。"
+              ],
+              "strategy": "先确定题干要求，再寻找原文证据；核对人物、时间、数量和条件，不能只匹配相同单词。"
+            }
+          },
+          {
+            "id": "cet4-long-sentence-04-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "reading",
+            "type": "reading",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "Which claim is too strong?",
+            "context": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+            "options": [
+              "Some students saved a separate reservation trip.",
+              "Every student avoided every visit to the desk.",
+              "Keys still had to be collected at the desk.",
+              "The library has not made its final decision."
+            ],
+            "correctOption": 1,
+            "explanation": "some 不能扩大为 every，而且取钥匙仍需到服务台。",
+            "source": "original",
+            "stageId": "cet4-long-sentence-04",
+            "analysis": {
+              "summary": "some 不能扩大为 every，而且取钥匙仍需到服务台。",
+              "evidence": "A library introduced an online booking page for study rooms. Previously, students had to visit the desk to reserve a room. During the trial, they could book online, although keys still had to be collected at the desk. This saved some students a separate trip just to make a reservation. The library has not decided whether the trial will continue. If feedback is positive, it will consider extending the service.",
+              "knowledgePoints": [
+                "范围与全称边界"
+              ],
+              "optionAnalysis": [
+                "这是 This saved some students 的明确内容，没有扩大范围。",
+                "some 不能扩大为 every，而且取钥匙仍需到服务台。",
+                "这是 although 后明确保留的要求。",
+                "has not decided 明确表示尚未决定，不是过强推断。"
+              ],
+              "strategy": "先确定题干要求，再寻找原文证据；核对人物、时间、数量和条件，不能只匹配相同单词。"
+            }
+          }
+        ]
+      }
+    ],
+    "review": [
+      {
+        "id": "cet4-long-sentence-review-q01",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择在从句中作主语的词。",
+        "context": "The researcher ___ led the discussion will send a summary.",
+        "options": [
+          "who",
+          "whom",
+          "whose",
+          "where"
+        ],
+        "correctOption": 0,
+        "explanation": "先行词 researcher 为人，从句缺主语，用 who。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "先行词 researcher 为人，从句缺主语，用 who。",
+          "evidence": "The researcher ___ led the discussion will send a summary.",
+          "knowledgePoints": [
+            "单元测验主语关系词"
+          ],
+          "optionAnalysis": [
+            "先行词 researcher 为人，从句缺主语，用 who。",
+            "whom 为宾格，不能在此作 led 的主语。",
+            "whose 后没有所限定的名词，不能直接接 led。",
+            "where 表地点，不能指执行讨论的人。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q02",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择表达地点关系的词。",
+        "context": "The hall ___ the interview took place has been renovated.",
+        "options": [
+          "which",
+          "where",
+          "who",
+          "whose"
+        ],
+        "correctOption": 1,
+        "explanation": "where 对应 in which，表达面试发生的地点。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "where 对应 in which，表达面试发生的地点。",
+          "evidence": "The hall ___ the interview took place has been renovated.",
+          "knowledgePoints": [
+            "单元测验地点关系"
+          ],
+          "optionAnalysis": [
+            "took place 不缺宾语，单独 which 不能提供在大厅的地点关系。",
+            "where 对应 in which，表达面试发生的地点。",
+            "hall 不是人，who 也不能在此提供地点状语。",
+            "此处不是限定一个名词的所属关系。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q03",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择补上 requested 宾语的词。",
+        "context": "___ the applicants requested was a clearer timetable.",
+        "options": [
+          "That",
+          "Whether",
+          "What",
+          "Where"
+        ],
+        "correctOption": 2,
+        "explanation": "What 补 requested 的宾语，整个从句作主句主语。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "What 补 requested 的宾语，整个从句作主句主语。",
+          "evidence": "___ the applicants requested was a clearer timetable.",
+          "knowledgePoints": [
+            "单元测验名词性从句"
+          ],
+          "optionAnalysis": [
+            "requested 缺少宾语，that 只连接而不补这个成分。",
+            "whether 表是否，不表示申请者请求的东西。",
+            "What 补 requested 的宾语，整个从句作主句主语。",
+            "where 表地点，不能补上请求的对象。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q04",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择正确的嵌入问句。",
+        "context": "Could you explain ___?",
+        "options": [
+          "why did the schedule change",
+          "why the schedule did changed",
+          "why changed the schedule",
+          "why the schedule changed"
+        ],
+        "correctOption": 3,
+        "explanation": "从句按 the schedule changed 排列，不使用 did 倒装。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "从句按 the schedule changed 排列，不使用 did 倒装。",
+          "evidence": "Could you explain ___?",
+          "knowledgePoints": [
+            "单元测验陈述语序"
+          ],
+          "optionAnalysis": [
+            "这是直接问句的倒装，而 explain 后需要陈述语序的从句。",
+            "did 后应接原形，这里 did changed 结构错误。",
+            "这里把主语与谓语的普通陈述顺序颠倒了。",
+            "从句按 the schedule changed 排列，不使用 did 倒装。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q05",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择修饰“被收集的回复”的形式。",
+        "context": "The responses ___ during the trial will be analysed next week.",
+        "options": [
+          "collected",
+          "collecting",
+          "were collected",
+          "collect"
+        ],
+        "correctOption": 0,
+        "explanation": "collected during the trial 修饰 responses，will be analysed 是主句谓语。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "collected during the trial 修饰 responses，will be analysed 是主句谓语。",
+          "evidence": "The responses ___ during the trial will be analysed next week.",
+          "knowledgePoints": [
+            "单元测验分词与谓语"
+          ],
+          "optionAnalysis": [
+            "collected during the trial 修饰 responses，will be analysed 是主句谓语。",
+            "responses 是被收集的信息，不是主动执行收集的主体。",
+            "were collected 与 will be analysed 之间没有关系词或连词，结构不完整。",
+            "原形不能直接充当此处后置修饰语。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q06",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择 mind 后的形式。",
+        "context": "Would you mind ___ the diagram again?",
+        "options": [
+          "explain",
+          "explaining",
+          "to explain",
+          "explained"
+        ],
+        "correctOption": 1,
+        "explanation": "mind doing 是本课所讲的结构，选 explaining。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "mind doing 是本课所讲的结构，选 explaining。",
+          "evidence": "Would you mind ___ the diagram again?",
+          "knowledgePoints": [
+            "单元测验动名词"
+          ],
+          "optionAnalysis": [
+            "mind 在此接 doing，不直接接动词原形。",
+            "mind doing 是本课所讲的结构，选 explaining。",
+            "mind 在这个结构中不接 to explain。",
+            "过去式或过去分词不能充当这里所需的动名词。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q07",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "根据句子，哪项可以确定？",
+        "context": "Although the instructions were clearer, several participants still asked for help.",
+        "options": [
+          "说明变清楚，因此不再有人求助。",
+          "所有参与者都没有看说明。",
+          "说明更清楚了，但仍有一些参与者求助。",
+          "求助证明说明比之前更模糊。"
+        ],
+        "correctOption": 2,
+        "explanation": "although 保留改善与困难并存的让步关系。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "although 保留改善与困难并存的让步关系。",
+          "evidence": "Although the instructions were clearer, several participants still asked for help.",
+          "knowledgePoints": [
+            "单元测验让步"
+          ],
+          "optionAnalysis": [
+            "still asked for help 明确有人求助，不能反转让步关系。",
+            "several 不等于所有，也没有不阅读的事实。",
+            "although 保留改善与困难并存的让步关系。",
+            "were clearer 明确更清楚；求助不能据此推成更模糊。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-long-sentence-review-q08",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "根据句子，哪项没有过度推断？",
+        "context": "If the first stage is successful, the team will consider a second stage.",
+        "options": [
+          "第二阶段已经完成。",
+          "无论第一阶段怎样，都会立刻开展第二阶段。",
+          "第一阶段失败已经得到证实。",
+          "第一阶段成功是考虑第二阶段的条件，并非已保证开展。"
+        ],
+        "correctOption": 3,
+        "explanation": "if 限定条件，consider 限定承诺强度，不能跳过两层限制。",
+        "source": "original",
+        "stageId": "cet4-long-sentence-review",
+        "analysis": {
+          "summary": "if 限定条件，consider 限定承诺强度，不能跳过两层限制。",
+          "evidence": "If the first stage is successful, the team will consider a second stage.",
+          "knowledgePoints": [
+            "单元测验条件与强度"
+          ],
+          "optionAnalysis": [
+            "will consider 是将来考虑，不是已经完成。",
+            "if 给出条件，consider 也不是立刻实施。",
+            "if 是条件句，未报告第一阶段的实际成败。",
+            "if 限定条件，consider 限定承诺强度，不能跳过两层限制。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      }
+    ]
+  }
+}

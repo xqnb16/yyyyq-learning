@@ -1,0 +1,628 @@
+{
+  "articles": [
+    {
+      "id": "squad-teacher",
+      "language": "en",
+      "title": "Teachers · 定位教育术语",
+      "eyebrow": "SQuAD · 原文问答改编",
+      "level": "开放阅读 · 非考试材料",
+      "difficulty": 3,
+      "minutes": 8,
+      "wordCount": 97,
+      "paragraphs": [
+        "The role of teacher is often formal and ongoing, carried out at a school or other place of formal education. In many countries, a person who wishes to become a teacher must first obtain specified professional qualifications or credentials from a university or college. These professional qualifications may include the study of pedagogy, the science of teaching. Teachers, like other professionals, may have to continue their education after they qualify, a process known as continuing professional development. Teachers may use a lesson plan to facilitate student learning, providing a course of study which is called the curriculum."
+      ],
+      "vocabulary": [
+        {
+          "term": "credential",
+          "meaning": "资格证明"
+        },
+        {
+          "term": "lesson plan",
+          "meaning": "教案"
+        },
+        {
+          "term": "curriculum",
+          "meaning": "课程体系"
+        }
+      ],
+      "questions": [
+        {
+          "sourceQuestionId": "56e7477700c9c71400d76f23",
+          "originalAnswers": [
+            {
+              "answer_start": 619,
+              "text": "the curriculum."
+            },
+            {
+              "answer_start": 623,
+              "text": "curriculum"
+            }
+          ],
+          "prompt": "What is a course of study called?",
+          "options": [
+            "Curriculum",
+            "Credential",
+            "Qualification"
+          ],
+          "correctOption": 0,
+          "explanation": "定位末句 a course of study which is called the curriculum；注意不要把资格证明当课程。",
+          "type": "detail",
+          "evidence": "Teachers may use a lesson plan to facilitate student learning, providing a course of study which is called the curriculum."
+        },
+        {
+          "sourceQuestionId": "56e7477700c9c71400d76f26",
+          "originalAnswers": [
+            {
+              "answer_start": 531,
+              "text": "lesson plan"
+            }
+          ],
+          "prompt": "What can a teacher use to help students learn?",
+          "options": [
+            "A train ticket",
+            "A lesson plan",
+            "A weather forecast"
+          ],
+          "correctOption": 1,
+          "explanation": "Teachers may use a lesson plan 明确说明教案帮助学生学习。",
+          "type": "detail",
+          "evidence": "Teachers may use a lesson plan to facilitate student learning, providing a course of study which is called the curriculum."
+        },
+        {
+          "sourceQuestionId": "56e7477700c9c71400d76f27",
+          "originalAnswers": [
+            {
+              "answer_start": 66,
+              "text": "school"
+            }
+          ],
+          "prompt": "Where is a teacher most likely to be teaching at?",
+          "options": [
+            "A bank",
+            "A train station",
+            "A school"
+          ],
+          "correctOption": 2,
+          "explanation": "首句指出教学通常发生在 school 或其他正式教育场所。",
+          "type": "detail",
+          "evidence": "The role of teacher is often formal and ongoing, carried out at a school or other place of formal education."
+        }
+      ],
+      "sourceInfo": {
+        "title": "SQuAD 1.1 · Teacher",
+        "publisher": "Stanford / Wikipedia contributors",
+        "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "license": "CC BY-SA 4.0",
+        "attribution": "SQuAD: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang and annotators; passage: Wikipedia contributors.",
+        "adaptationNote": "保留原文、原始问题与答案位置；三选一选项及中文解析为本站改编，不是原数据集单选题或四六级真题。原文章主题 Teacher。历史版本统计不作当前事实保证；改编内容以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "squad-amazon",
+      "language": "en",
+      "title": "Amazonia · 区分面积与范围",
+      "eyebrow": "SQuAD · 原文问答改编",
+      "level": "开放阅读 · 非考试材料",
+      "difficulty": 3,
+      "minutes": 8,
+      "wordCount": 156,
+      "paragraphs": [
+        "The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain \"Amazonas\" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species."
+      ],
+      "vocabulary": [
+        {
+          "term": "basin",
+          "meaning": "流域"
+        },
+        {
+          "term": "territory",
+          "meaning": "领土；区域"
+        },
+        {
+          "term": "biodiverse",
+          "meaning": "生物多样性丰富的"
+        }
+      ],
+      "questions": [
+        {
+          "sourceQuestionId": "5725b81b271a42140099d097",
+          "originalAnswers": [
+            {
+              "answer_start": 176,
+              "text": "also known in English as Amazonia or the Amazon Jungle,"
+            },
+            {
+              "answer_start": 201,
+              "text": "Amazonia or the Amazon Jungle"
+            },
+            {
+              "answer_start": 201,
+              "text": "Amazonia"
+            }
+          ],
+          "prompt": "Which name is also used to describe the Amazon rainforest in English?",
+          "options": [
+            "The Congo Forest",
+            "The Atlantic Forest",
+            "Amazonia or the Amazon Jungle"
+          ],
+          "correctOption": 2,
+          "explanation": "定位 also known in English as 后的别名。",
+          "type": "detail",
+          "evidence": "The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America."
+        },
+        {
+          "sourceQuestionId": "5725b81b271a42140099d098",
+          "originalAnswers": [
+            {
+              "answer_start": 394,
+              "text": "5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest."
+            },
+            {
+              "answer_start": 394,
+              "text": "5,500,000"
+            }
+          ],
+          "prompt": "How many square kilometers of rainforest is covered in the basin?",
+          "options": [
+            "5,500,000",
+            "7,000,000",
+            "2,700,000"
+          ],
+          "correctOption": 0,
+          "explanation": "题目问雨林覆盖的平方公里数；7,000,000 是整个流域，2,700,000 是流域平方英里数。",
+          "type": "detail",
+          "evidence": "This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest."
+        },
+        {
+          "sourceQuestionId": "5725b81b271a42140099d099",
+          "originalAnswers": [
+            {
+              "answer_start": 471,
+              "text": "This region includes territory belonging to nine nations."
+            },
+            {
+              "answer_start": 515,
+              "text": "nine"
+            }
+          ],
+          "prompt": "How many nations control this region in total?",
+          "options": [
+            "Four",
+            "Nine",
+            "Three"
+          ],
+          "correctOption": 1,
+          "explanation": "直接定位 territory belonging to nine nations。",
+          "type": "detail",
+          "evidence": "This region includes territory belonging to nine nations."
+        }
+      ],
+      "sourceInfo": {
+        "title": "SQuAD 1.1 · Amazon_rainforest",
+        "publisher": "Stanford / Wikipedia contributors",
+        "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "license": "CC BY-SA 4.0",
+        "attribution": "SQuAD: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang and annotators; passage: Wikipedia contributors.",
+        "adaptationNote": "保留原文、原始问题与答案位置；三选一选项及中文解析为本站改编，不是原数据集单选题或四六级真题。原文章主题 Amazon_rainforest。历史版本统计不作当前事实保证；改编内容以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "squad-steam",
+      "language": "en",
+      "title": "Steam Engines · 跟随过程线索",
+      "eyebrow": "SQuAD · 原文问答改编",
+      "level": "开放阅读 · 非考试材料",
+      "difficulty": 3,
+      "minutes": 8,
+      "wordCount": 85,
+      "paragraphs": [
+        "Steam engines are external combustion engines, where the working fluid is separate from the combustion products. Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle. In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure. When expanded through pistons or turbines, mechanical work is done. The reduced-pressure steam is then condensed and pumped back into the boiler."
+      ],
+      "vocabulary": [
+        {
+          "term": "combustion",
+          "meaning": "燃烧"
+        },
+        {
+          "term": "boiler",
+          "meaning": "锅炉"
+        },
+        {
+          "term": "condense",
+          "meaning": "冷凝"
+        }
+      ],
+      "questions": [
+        {
+          "sourceQuestionId": "57112686b654c5140001fbd3",
+          "originalAnswers": [
+            {
+              "answer_start": 149,
+              "text": "solar"
+            },
+            {
+              "answer_start": 149,
+              "text": "solar power"
+            },
+            {
+              "answer_start": 149,
+              "text": "solar power, nuclear power or geothermal energy"
+            }
+          ],
+          "prompt": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+          "options": [
+            "Coal",
+            "Solar power",
+            "Petrol"
+          ],
+          "correctOption": 1,
+          "explanation": "题目排除了 geothermal 和 nuclear，剩下的列举项是 solar power。",
+          "type": "detail",
+          "evidence": "Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used."
+        },
+        {
+          "sourceQuestionId": "57112686b654c5140001fbd4",
+          "originalAnswers": [
+            {
+              "answer_start": 283,
+              "text": "Rankine"
+            },
+            {
+              "answer_start": 283,
+              "text": "Rankine cycle"
+            }
+          ],
+          "prompt": "What ideal thermodynamic cycle analyzes the process by which steam engines work?",
+          "options": [
+            "The water cycle",
+            "The carbon cycle",
+            "The Rankine cycle"
+          ],
+          "correctOption": 2,
+          "explanation": "文中 called the Rankine cycle 明确命名该循环。",
+          "type": "detail",
+          "evidence": "The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle."
+        },
+        {
+          "sourceQuestionId": "57112686b654c5140001fbd5",
+          "originalAnswers": [
+            {
+              "answer_start": 348,
+              "text": "steam"
+            }
+          ],
+          "prompt": "In the Rankine cycle, what does water turn into when heated?",
+          "options": [
+            "Steam",
+            "Ice",
+            "Oil"
+          ],
+          "correctOption": 0,
+          "explanation": "定位 water is heated and transforms into steam。",
+          "type": "detail",
+          "evidence": "In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure."
+        }
+      ],
+      "sourceInfo": {
+        "title": "SQuAD 1.1 · Steam_engine",
+        "publisher": "Stanford / Wikipedia contributors",
+        "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "license": "CC BY-SA 4.0",
+        "attribution": "SQuAD: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang and annotators; passage: Wikipedia contributors.",
+        "adaptationNote": "保留原文、原始问题与答案位置；三选一选项及中文解析为本站改编，不是原数据集单选题或四六级真题。原文章主题 Steam_engine。历史版本统计不作当前事实保证；改编内容以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "squad-teacher-roles",
+      "language": "en",
+      "title": "Teachers’ Roles · 对照能力与文化",
+      "eyebrow": "SQuAD · 原文问答改编",
+      "level": "开放阅读 · 非考试材料",
+      "difficulty": 2,
+      "minutes": 4,
+      "wordCount": 28,
+      "paragraphs": [
+        "A teacher's role may vary among cultures. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills."
+      ],
+      "vocabulary": [
+        {
+          "term": "literacy",
+          "meaning": "读写能力"
+        },
+        {
+          "term": "numeracy",
+          "meaning": "计算能力"
+        },
+        {
+          "term": "life skills",
+          "meaning": "生活技能"
+        }
+      ],
+      "questions": [
+        {
+          "sourceQuestionId": "56e748a200c9c71400d76f37",
+          "originalAnswers": [
+            {
+              "answer_start": 32,
+              "text": "cultures"
+            }
+          ],
+          "prompt": "What factor may make a teacher's role vary?",
+          "options": [
+            "Cultures",
+            "Ticket prices",
+            "The weather"
+          ],
+          "correctOption": 0,
+          "explanation": "首句 vary among cultures 说明文化差异影响角色。",
+          "type": "detail",
+          "evidence": "A teacher's role may vary among cultures."
+        },
+        {
+          "sourceQuestionId": "56e748a200c9c71400d76f38",
+          "originalAnswers": [
+            {
+              "answer_start": 91,
+              "text": "numeracy"
+            }
+          ],
+          "prompt": "What is similar to literacy that a teacher would teach?",
+          "options": [
+            "Religion",
+            "Numeracy",
+            "A train timetable"
+          ],
+          "correctOption": 1,
+          "explanation": "文中 literacy and numeracy 并列，分别指读写和计算能力。",
+          "type": "detail",
+          "evidence": "Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills."
+        },
+        {
+          "sourceQuestionId": "56e748a200c9c71400d76f3a",
+          "originalAnswers": [
+            {
+              "answer_start": 187,
+              "text": "life skills"
+            }
+          ],
+          "prompt": "What type of teaching would help the most with everyday life?",
+          "options": [
+            "Craftsmanship only",
+            "Only the arts",
+            "Life skills"
+          ],
+          "correctOption": 2,
+          "explanation": "题目问 everyday life，最直接对应 life skills。",
+          "type": "detail",
+          "evidence": "Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills."
+        }
+      ],
+      "sourceInfo": {
+        "title": "SQuAD 1.1 · Teacher",
+        "publisher": "Stanford / Wikipedia contributors",
+        "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "license": "CC BY-SA 4.0",
+        "attribution": "SQuAD: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang and annotators; passage: Wikipedia contributors.",
+        "adaptationNote": "保留原文、原始问题与答案位置；三选一选项及中文解析为本站改编，不是原数据集单选题或四六级真题。原文章主题 Teacher。历史版本统计不作当前事实保证；改编内容以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "squad-oxygen",
+      "language": "en",
+      "title": "Oxygen · 从定义中找证据",
+      "eyebrow": "SQuAD · 原文问答改编",
+      "level": "开放阅读 · 非考试材料",
+      "difficulty": 3,
+      "minutes": 8,
+      "wordCount": 135,
+      "paragraphs": [
+        "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium. At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O\n2. Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere. However, monitoring of atmospheric oxygen levels show a global downward trend, because of fossil-fuel burning. Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass."
+      ],
+      "vocabulary": [
+        {
+          "term": "element",
+          "meaning": "元素"
+        },
+        {
+          "term": "atomic number",
+          "meaning": "原子序数"
+        },
+        {
+          "term": "dioxygen",
+          "meaning": "双原子氧"
+        }
+      ],
+      "questions": [
+        {
+          "sourceQuestionId": "571a484210f8ca1400304fbd",
+          "originalAnswers": [
+            {
+              "answer_start": 61,
+              "text": "8"
+            }
+          ],
+          "prompt": "The atomic number of the periodic table for oxygen?",
+          "options": [
+            "6",
+            "8",
+            "16"
+          ],
+          "correctOption": 1,
+          "explanation": "首句 atomic number 8；不要把元素符号或相对原子质量当原子序数。",
+          "type": "detail",
+          "evidence": "Oxygen is a chemical element with symbol O and atomic number 8."
+        },
+        {
+          "sourceQuestionId": "571a484210f8ca1400304fbe",
+          "originalAnswers": [
+            {
+              "answer_start": 331,
+              "text": "helium"
+            }
+          ],
+          "prompt": "What is the second most abundant element?",
+          "options": [
+            "Helium",
+            "Oxygen",
+            "Carbon"
+          ],
+          "correctOption": 0,
+          "explanation": "原文按质量说明 oxygen 排第三，位于 hydrogen 和 helium 之后；第二是 helium。",
+          "type": "detail",
+          "evidence": "By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium."
+        },
+        {
+          "sourceQuestionId": "571a484210f8ca1400304fc0",
+          "originalAnswers": [
+            {
+              "answer_start": 377,
+              "text": "two atoms"
+            },
+            {
+              "answer_start": 377,
+              "text": "two"
+            }
+          ],
+          "prompt": "How many atoms combine to form dioxygen?",
+          "options": [
+            "One atom",
+            "Three atoms",
+            "Two atoms"
+          ],
+          "correctOption": 2,
+          "explanation": "two atoms ... bind to form dioxygen 明确给出两个。",
+          "type": "detail",
+          "evidence": "At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O\n2."
+        }
+      ],
+      "sourceInfo": {
+        "title": "SQuAD 1.1 · Oxygen",
+        "publisher": "Stanford / Wikipedia contributors",
+        "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "license": "CC BY-SA 4.0",
+        "attribution": "SQuAD: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang and annotators; passage: Wikipedia contributors.",
+        "adaptationNote": "保留原文、原始问题与答案位置；三选一选项及中文解析为本站改编，不是原数据集单选题或四六级真题。原文章主题 Oxygen。历史版本统计不作当前事实保证；改编内容以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "squad-steam-history",
+      "language": "en",
+      "title": "Steam Engines · 人物与发明时间",
+      "eyebrow": "SQuAD · 原文问答改编",
+      "level": "开放阅读 · 非考试材料",
+      "difficulty": 3,
+      "minutes": 8,
+      "wordCount": 121,
+      "paragraphs": [
+        "The first commercially successful true engine, in that it could generate power and transmit it to a machine, was the atmospheric engine, invented by Thomas Newcomen around 1712. It was an improvement over Savery's steam pump, using a piston as proposed by Papin. Newcomen's engine was relatively inefficient, and in most cases was used for pumping water. It worked by creating a partial vacuum by condensing steam under a piston within a cylinder. It was employed for draining mine workings at depths hitherto impossible, and also for providing a reusable water supply for driving waterwheels at factories sited away from a suitable \"head\". Water that had passed over the wheel was pumped back up into a storage reservoir above the wheel."
+      ],
+      "vocabulary": [
+        {
+          "term": "inventor",
+          "meaning": "发明者"
+        },
+        {
+          "term": "piston",
+          "meaning": "活塞"
+        },
+        {
+          "term": "reservoir",
+          "meaning": "蓄水池"
+        }
+      ],
+      "questions": [
+        {
+          "sourceQuestionId": "571126dfa58dae1900cd6cb3",
+          "originalAnswers": [
+            {
+              "answer_start": 149,
+              "text": "Thomas Newcomen"
+            }
+          ],
+          "prompt": "Who was the inventor of the atmospheric engine?",
+          "options": [
+            "Thomas Newcomen",
+            "Savery",
+            "Papin"
+          ],
+          "correctOption": 0,
+          "explanation": "invented by Thomas Newcomen 给出发明者；另外两人分别对应蒸汽泵和活塞构想。",
+          "type": "detail",
+          "evidence": "The first commercially successful true engine, in that it could generate power and transmit it to a machine, was the atmospheric engine, invented by Thomas Newcomen around 1712."
+        },
+        {
+          "sourceQuestionId": "571126dfa58dae1900cd6cb4",
+          "originalAnswers": [
+            {
+              "answer_start": 172,
+              "text": "1712"
+            },
+            {
+              "answer_start": 165,
+              "text": "around 1712"
+            }
+          ],
+          "prompt": "About what year was the atmospheric engine invented?",
+          "options": [
+            "Around 1812",
+            "Around 1712",
+            "Around 1912"
+          ],
+          "correctOption": 1,
+          "explanation": "首句 around 1712 是约略时间，不改为精确日期。",
+          "type": "detail",
+          "evidence": "The first commercially successful true engine, in that it could generate power and transmit it to a machine, was the atmospheric engine, invented by Thomas Newcomen around 1712."
+        },
+        {
+          "sourceQuestionId": "571126dfa58dae1900cd6cb5",
+          "originalAnswers": [
+            {
+              "answer_start": 214,
+              "text": "steam pump"
+            }
+          ],
+          "prompt": "What was invented by Savery?",
+          "options": [
+            "The piston",
+            "The reservoir",
+            "A steam pump"
+          ],
+          "correctOption": 2,
+          "explanation": "Savery’s steam pump 明确对应蒸汽泵。",
+          "type": "detail",
+          "evidence": "It was an improvement over Savery's steam pump, using a piston as proposed by Papin."
+        }
+      ],
+      "sourceInfo": {
+        "title": "SQuAD 1.1 · Steam_engine",
+        "publisher": "Stanford / Wikipedia contributors",
+        "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "license": "CC BY-SA 4.0",
+        "attribution": "SQuAD: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang and annotators; passage: Wikipedia contributors.",
+        "adaptationNote": "保留原文、原始问题与答案位置；三选一选项及中文解析为本站改编，不是原数据集单选题或四六级真题。原文章主题 Steam_engine。历史版本统计不作当前事实保证；改编内容以 CC BY-SA 4.0 提供。"
+      }
+    }
+  ],
+  "translations": {
+    "squad-teacher": [
+      "教师通常在学校等正式教育场所持续授课。许多国家要求教师先取得大学或学院颁发的专业资格；之后还可能需要持续专业发展。教师可以用教案帮助学生学习，整套学习内容称为 curriculum（课程）。此为阅读辅助概述，非逐句译文。"
+    ],
+    "squad-amazon": [
+      "亚马孙雨林又称 Amazonia 或 Amazon Jungle，位于南美洲亚马孙流域。文中区分流域面积与雨林覆盖面积，并介绍涉及的九个国家及各地分布。这些数字来自数据集的历史文章版本，练习目标是依据原文定位，不作为最新统计。此为辅助概述。"
+    ],
+    "squad-steam": [
+      "蒸汽机属于外燃机，工作流体与燃烧产物分开。文中介绍太阳能等非燃烧热源，以及朗肯循环：水加热变成蒸汽，膨胀做功，再冷凝并泵回锅炉。此为阅读辅助概述。"
+    ],
+    "squad-teacher-roles": [
+      "教师的角色可能随文化而变化。教学内容可以涵盖读写、计算、手工与职业训练、艺术、公民知识和生活技能。本文只介绍可能的范围，不要求每一位教师都教授全部内容。此为辅助概述。"
+    ],
+    "squad-oxygen": [
+      "氧的元素符号为 O，原子序数为 8。文章介绍其性质、在宇宙中的丰度顺序，以及两个氧原子形成双原子氧的过程。有关环境比例和趋势来自数据集历史文章，只用于依据原文阅读，不作为最新统计。此为辅助概述。"
+    ],
+    "squad-steam-history": [
+      "文中回顾纽科门约在 1712 年发明的大气式蒸汽机，它改进了塞维利的蒸汽泵，使用了帕潘提出的活塞概念。早期机器主要用于抽水。此为辅助概述；问题要求以原文给出的历史信息定位人物与时间。"
+    ]
+  }
+}

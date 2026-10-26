@@ -1,0 +1,1339 @@
+{
+  "schemaVersion": 1,
+  "license": "CC BY-SA 4.0",
+  "sourceCommit": "862062deafccfbb0aa1a95e5c77300f31c4226c1",
+  "sourceFiles": [
+    {
+      "file": "sentence-elements.py",
+      "path": "content/sentence-elements.py",
+      "sha256": "a31ac3caac3c2347a1c0acf769d0dcf73402ea1850955421ccb33b8dd80ada89",
+      "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/sentence-elements.py"
+    },
+    {
+      "file": "cet4-build.py",
+      "path": "build.py",
+      "sha256": "0cdeba1f4ff90c9f25917e80f3b5011596743819155c1705b4b0abab82178e5d",
+      "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/build.py"
+    }
+  ],
+  "unit": {
+    "id": "cet4-sentence",
+    "trackId": "cet4",
+    "title": "句子主干与时态",
+    "goal": "把主干、修饰、时间关系和语态分开判断，再还原完整意思。",
+    "prerequisites": "能辨认名词和常见动词。这里是四级前置能力训练，不是官方语法单项题或完整模拟卷。",
+    "sourceInfo": {
+      "title": "高校英语语法双语课件 · 四级前置讲解改编",
+      "publisher": "Adam Wang / YYYYQ 教学改编",
+      "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/tree/862062deafccfbb0aa1a95e5c77300f31c4226c1",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Adam Wang · english-grammar-bilingual-slides；YYYYQ 改编、中文补充及原创训练。",
+      "adaptationNote": "依据固定版本的句子成分、时态、主谓一致、被动、从句与非谓语教学内容重新组织；修订“一句只有一个动词”、时态信号词、关系词与分词的绝对化说法。例句和全部测验另行编写，非四级真题；本单元导出包按 CC BY-SA 4.0 共享。未执行源程序，未复制 AGPL 演示模板。",
+      "downloadUrl": "/open-materials/cet4-sentence.json"
+    },
+    "lessons": [
+      {
+        "id": "cet4-sentence-01",
+        "title": "主干与修饰：先找到谁做什么",
+        "goal": "识别主语中心、完整谓语和修饰范围，不按最近的名词猜意思。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-sentence-core",
+            "title": "先保留主干，再放回修饰",
+            "explanation": "读较长句时，先找主语中心和限定谓语，再确认宾语或表语。谓语可能是一个动词，也可能是 has changed、will be checked 这样的动词词组；不能只圈最后一个词。一个主语可以带并列谓语，复合句也有各自的主从句谓语，因此“一句话只能有一个动词”不是可靠规则。",
+            "examples": [
+              {
+                "sentence": "The survey of students in two colleges reveals a difference in travel habits.",
+                "translation": "针对两所学院学生的调查显示，出行习惯存在差异。",
+                "note": "主干：The survey reveals a difference；of students / in two colleges 限定调查对象。"
+              },
+              {
+                "sentence": "The volunteers checked the forms and answered questions.",
+                "translation": "志愿者检查了表格，并回答了问题。",
+                "note": "同一主语带两个由 and 连接的并列谓语，不必把 answered 改成非谓语。"
+              }
+            ]
+          },
+          {
+            "id": "c4-sentence-role",
+            "title": "区分“什么样”与“怎样做”",
+            "explanation": "定语修饰名词，状语说明动作或整句的时间、方式等信息。介词短语可能承担不同作用，要看它与谁相连。系动词后的表语说明主语的身份或状态，例如 remains useful；宾语则是动作涉及的对象。拆句是暂时理清关系，不是把修饰信息从理解中永久删除。",
+            "examples": [
+              {
+                "sentence": "The advice in the guide remains useful during the interview.",
+                "translation": "指南中的建议在面试时仍然有用。",
+                "note": "in the guide 修饰 advice；useful 是表语；during the interview 是时间状语。"
+              },
+              {
+                "sentence": "The editor explained the change clearly after the meeting.",
+                "translation": "编辑在会后清楚地解释了这一改动。",
+                "note": "the change 是宾语；clearly 修饰 explained，不用 clear 代替。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-sentence-01-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "这句话的主语中心是什么？",
+            "context": "The report on local transport describes several changes.",
+            "options": [
+              "report",
+              "transport",
+              "changes",
+              "local"
+            ],
+            "correctOption": 0,
+            "explanation": "The report describes several changes 是主干，on local transport 限定报告主题。",
+            "source": "original",
+            "stageId": "cet4-sentence-01",
+            "analysis": {
+              "summary": "The report describes several changes 是主干，on local transport 限定报告主题。",
+              "evidence": "The report on local transport describes several changes.",
+              "knowledgePoints": [
+                "主语中心与修饰"
+              ],
+              "optionAnalysis": [
+                "The report describes several changes 是主干，on local transport 限定报告主题。",
+                "transport 位于 on 引出的修饰短语中，不是主语中心。",
+                "changes 是 describes 后的宾语，不是动作的发出者。",
+                "local 是修饰 transport 的形容词，不能作这里的中心名词。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-01-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选出完整的谓语词组。",
+            "context": "The research team has completed the first interview.",
+            "options": [
+              "team",
+              "has completed",
+              "completed the first interview",
+              "the first interview"
+            ],
+            "correctOption": 1,
+            "explanation": "has 与过去分词 completed 合起来构成限定谓语，不能只看一个词。",
+            "source": "original",
+            "stageId": "cet4-sentence-01",
+            "analysis": {
+              "summary": "has 与过去分词 completed 合起来构成限定谓语，不能只看一个词。",
+              "evidence": "The research team has completed the first interview.",
+              "knowledgePoints": [
+                "完整谓语"
+              ],
+              "optionAnalysis": [
+                "team 是主语中心，不是谓语词组。",
+                "has 与过去分词 completed 合起来构成限定谓语，不能只看一个词。",
+                "这包含宾语，却漏掉构成现在完成时的 has。",
+                "这个名词词组是宾语，不表达谓语的时态。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-01-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "哪一部分是在说明 instructions 的位置？",
+            "context": "The instructions on the first page remain clear.",
+            "options": [
+              "remain clear",
+              "The instructions",
+              "on the first page",
+              "clear"
+            ],
+            "correctOption": 2,
+            "explanation": "on the first page 紧接 instructions，说明第一页上的说明。",
+            "source": "original",
+            "stageId": "cet4-sentence-01",
+            "analysis": {
+              "summary": "on the first page 紧接 instructions，说明第一页上的说明。",
+              "evidence": "The instructions on the first page remain clear.",
+              "knowledgePoints": [
+                "后置修饰"
+              ],
+              "optionAnalysis": [
+                "remain clear 是系表结构，说明说明文字的状态。",
+                "这是被限定的名词词组，不是说明位置的修饰语。",
+                "on the first page 紧接 instructions，说明第一页上的说明。",
+                "clear 是表语，表示清楚而不是位置。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-01-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "下列哪项是正确的分析？",
+            "context": "The tutor collected the notes and discussed the results.",
+            "options": [
+              "discussed 必须删掉，因为一句只能有一个动词。",
+              "the results 是 collected 的主语。",
+              "and 后必须省去全部动词。",
+              "collected 和 discussed 是同一主语的并列谓语。"
+            ],
+            "correctOption": 3,
+            "explanation": "The tutor 同时执行 collected 与 discussed；连接关系使结构完整。",
+            "source": "original",
+            "stageId": "cet4-sentence-01",
+            "analysis": {
+              "summary": "The tutor 同时执行 collected 与 discussed；连接关系使结构完整。",
+              "evidence": "The tutor collected the notes and discussed the results.",
+              "knowledgePoints": [
+                "并列谓语边界"
+              ],
+              "optionAnalysis": [
+                "and 连接并列谓语，两个动作可以共用主语。",
+                "results 位于 discussed 后，是第二个动作的宾语。",
+                "and 可以连接谓语，并不要求删去后面的动作。",
+                "The tutor 同时执行 collected 与 discussed；连接关系使结构完整。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-01-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择修饰 explains 的正确形式。",
+            "context": "The guide explains the procedure ___.",
+            "options": [
+              "clearly",
+              "clear",
+              "clarity",
+              "clearness"
+            ],
+            "correctOption": 0,
+            "explanation": "clearly 表示解释得清楚，修饰动作 explains。",
+            "source": "original",
+            "stageId": "cet4-sentence-01",
+            "analysis": {
+              "summary": "clearly 表示解释得清楚，修饰动作 explains。",
+              "evidence": "The guide explains the procedure ___.",
+              "knowledgePoints": [
+                "方式状语"
+              ],
+              "optionAnalysis": [
+                "clearly 表示解释得清楚，修饰动作 explains。",
+                "clear 是形容词，此处需要副词修饰解释这一动作。",
+                "clarity 是名词，不能直接放在这里作方式副词。",
+                "clearness 也是名词，不是修饰 explains 的副词。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-01-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "哪项保留了句子的核心信息？",
+            "context": "The new schedule for evening classes seems practical.",
+            "options": [
+              "Evening classes seem new.",
+              "The new schedule seems practical.",
+              "Practical classes schedule the evening.",
+              "The schedule practices classes."
+            ],
+            "correctOption": 1,
+            "explanation": "主语中心是 schedule，seems practical 是系表关系；for evening classes 修饰 schedule。",
+            "source": "original",
+            "stageId": "cet4-sentence-01",
+            "analysis": {
+              "summary": "主语中心是 schedule，seems practical 是系表关系；for evening classes 修饰 schedule。",
+              "evidence": "The new schedule for evening classes seems practical.",
+              "knowledgePoints": [
+                "主系表主干"
+              ],
+              "optionAnalysis": [
+                "这把修饰 schedule 的信息改成了 classes 的状态。",
+                "主语中心是 schedule，seems practical 是系表关系；for evening classes 修饰 schedule。",
+                "改变了主语、动作与原句词语的角色。",
+                "原句是 seem 的系表结构，没有 practices 这一动作。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cet4-sentence-02",
+        "title": "时间线：发生、进行与已经完成",
+        "goal": "结合明确时间、观察时点和上下文识别动作关系。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-sentence-time",
+            "title": "先确定“站在哪个时间点看”",
+            "explanation": "一般过去时把事件放在已结束的过去时间；过去进行时描述过去某一刻正在展开的活动。现在完成时 have/has + done 将过去事件与现在联系，不能与 yesterday 这样明确结束的过去时间直接搭配描述同一事件。时间词是线索而非机械开关：for two years 也能与过去时搭配，表示已经结束的两年。",
+            "examples": [
+              {
+                "sentence": "Mia worked there for two years and left in 2021.",
+                "translation": "米娅在那里工作了两年，2021 年离开了。",
+                "note": "两年已经结束，不因为 for 就强行使用现在完成时。"
+              },
+              {
+                "sentence": "The team has collected thirty forms so far.",
+                "translation": "截至目前，团队已收集三十份表格。",
+                "note": "so far 把观察时点连到现在；collected 是过去分词。"
+              }
+            ]
+          },
+          {
+            "id": "c4-sentence-time-order",
+            "title": "背景、先后与习惯不能混读",
+            "explanation": "was/were + doing 可提供过去事件的背景；had + done 可强调比另一个过去参照点更早的完成情况。不是两件过去的事就必须出现过去完成时，after 等连接词已经明确先后时常能用一般过去时。一般现在时常描述习惯或状态；know 在通常的“知道”义中一般不用进行时。",
+            "examples": [
+              {
+                "sentence": "When the call came, I was checking the timetable.",
+                "translation": "电话打来时，我正在核对时刻表。",
+                "note": "checking 是当时的背景活动，不表示电话后才开始。"
+              },
+              {
+                "sentence": "By the time we arrived, the workshop had already ended.",
+                "translation": "我们到达时，工作坊早已结束了。",
+                "note": "结束早于过去的到达时点。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-sentence-02-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "根据明确过去时间选出正确形式。",
+            "context": "The team ___ the notice yesterday.",
+            "options": [
+              "posted",
+              "has posted",
+              "posts",
+              "posting"
+            ],
+            "correctOption": 0,
+            "explanation": "yesterday 指向已结束的过去时间，使用一般过去时 posted。",
+            "source": "original",
+            "stageId": "cet4-sentence-02",
+            "analysis": {
+              "summary": "yesterday 指向已结束的过去时间，使用一般过去时 posted。",
+              "evidence": "The team ___ the notice yesterday.",
+              "knowledgePoints": [
+                "过去时间与完成时"
+              ],
+              "optionAnalysis": [
+                "yesterday 指向已结束的过去时间，使用一般过去时 posted。",
+                "同一事件的时间被 yesterday 限定，不能直接用现在完成时。",
+                "一般现在时不能表达这里特定的昨日事件。",
+                "分词单独不能构成这里需要的限定谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-02-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择表示“当时正在写”的形式。",
+            "context": "At nine last night, I ___ the introduction; I was still halfway through it.",
+            "options": [
+              "write",
+              "was writing",
+              "have written",
+              "was wrote"
+            ],
+            "correctOption": 1,
+            "explanation": "was still halfway through it 明确当时尚在进行，因此用 was writing。",
+            "source": "original",
+            "stageId": "cet4-sentence-02",
+            "analysis": {
+              "summary": "was still halfway through it 明确当时尚在进行，因此用 was writing。",
+              "evidence": "At nine last night, I ___ the introduction; I was still halfway through it.",
+              "knowledgePoints": [
+                "过去进行背景"
+              ],
+              "optionAnalysis": [
+                "这是原形或一般现在时形式，不能表示昨晚当时的进行。",
+                "was still halfway through it 明确当时尚在进行，因此用 was writing。",
+                "现在完成时与这里的昨晚进行视角不符。",
+                "过去进行时需要 was + writing，不能接过去式 wrote。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-02-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择与“截至目前”一致的形式。",
+            "context": "We ___ twelve interviews so far.",
+            "options": [
+              "completed yesterday",
+              "has completed",
+              "have completed",
+              "have completing"
+            ],
+            "correctOption": 2,
+            "explanation": "so far 连到现在，we 搭配 have completed。",
+            "source": "original",
+            "stageId": "cet4-sentence-02",
+            "analysis": {
+              "summary": "so far 连到现在，we 搭配 have completed。",
+              "evidence": "We ___ twelve interviews so far.",
+              "knowledgePoints": [
+                "现在完成时形式"
+              ],
+              "optionAnalysis": [
+                "与 so far 放在同一结构中混入 yesterday，时间关系不协调。",
+                "主语 we 为复数，应使用 have 而不是 has。",
+                "so far 连到现在，we 搭配 have completed。",
+                "完成时是 have + 过去分词，不是 have + doing。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-02-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "下列哪项最准确？",
+            "context": "Leo lived in the city for five years, then moved away in 2018.",
+            "options": [
+              "有 for，所以 Leo 现在一定还住在那里。",
+              "lived 说明 Leo 还没有开始居住。",
+              "句子错误，因为 for 后只能使用完成时。",
+              "在这里，五年的居住期已经结束。"
+            ],
+            "correctOption": 3,
+            "explanation": "一般过去时与 moved away in 2018 共同标明居住期已结束。",
+            "source": "original",
+            "stageId": "cet4-sentence-02",
+            "analysis": {
+              "summary": "一般过去时与 moved away in 2018 共同标明居住期已结束。",
+              "evidence": "Leo lived in the city for five years, then moved away in 2018.",
+              "knowledgePoints": [
+                "for 的时间边界"
+              ],
+              "optionAnalysis": [
+                "then moved away 明确说已经搬走，for 本身不保证持续到现在。",
+                "lived 是已发生的过去事件，不是尚未开始。",
+                "for 引导时长，可用于已经结束的过去经历。",
+                "一般过去时与 moved away in 2018 共同标明居住期已结束。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-02-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "哪一事件发生在到达之前？",
+            "context": "By the time the visitors arrived, the staff had prepared all the seats.",
+            "options": [
+              "工作人员准备好全部座位。",
+              "访客到达。",
+              "访客离开。",
+              "工作人员明天安排座位。"
+            ],
+            "correctOption": 0,
+            "explanation": "had prepared 表达早于 arrived 的完成事件。",
+            "source": "original",
+            "stageId": "cet4-sentence-02",
+            "analysis": {
+              "summary": "had prepared 表达早于 arrived 的完成事件。",
+              "evidence": "By the time the visitors arrived, the staff had prepared all the seats.",
+              "knowledgePoints": [
+                "过去参照点"
+              ],
+              "optionAnalysis": [
+                "had prepared 表达早于 arrived 的完成事件。",
+                "arrived 是过去参照点，准备座位发生得更早。",
+                "原句只有到达，没有访客离开的信息。",
+                "had prepared 指更早已完成，不是未来安排。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-02-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择在“知道”义中自然的表达。",
+            "context": "I ___ the answer now, so I can explain it.",
+            "options": [
+              "am knowing",
+              "know",
+              "knowing",
+              "have knew"
+            ],
+            "correctOption": 1,
+            "explanation": "now 不意味着一定用进行时；这里的状态表达用 know。",
+            "source": "original",
+            "stageId": "cet4-sentence-02",
+            "analysis": {
+              "summary": "now 不意味着一定用进行时；这里的状态表达用 know。",
+              "evidence": "I ___ the answer now, so I can explain it.",
+              "knowledgePoints": [
+                "状态动词边界"
+              ],
+              "optionAnalysis": [
+                "know 在此表示知道这一状态，通常不用进行时。",
+                "now 不意味着一定用进行时；这里的状态表达用 know。",
+                "单独的 knowing 不能充当这个句子的限定谓语。",
+                "knew 是过去式；have 后不能接它构成完成时。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cet4-sentence-03",
+        "title": "主谓一致：别被中间的名词带走",
+        "goal": "根据主语中心决定数，并识别 each、and、with 的不同结构。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-sentence-agreement",
+            "title": "动词跟主语中心，不跟最近的名词",
+            "explanation": "The quality of the reports 中，中心是 quality，不是 reports；一般现在时用单数形式。with、together with、as well as 引出的附加信息通常不把单数主语变为复数。and 连接两个不同的人或事物则通常组成复数主语，不能把两类连接方式混为一谈。",
+            "examples": [
+              {
+                "sentence": "The quality of the recordings is important.",
+                "translation": "录音的质量很重要。",
+                "note": "主语中心 quality 为单数，recordings 位于 of 短语中。"
+              },
+              {
+                "sentence": "The supervisor, together with two assistants, checks the equipment.",
+                "translation": "主管和两名助理一起检查设备。",
+                "note": "附加短语不改变主语 the supervisor 的单数形式。"
+              }
+            ]
+          },
+          {
+            "id": "c4-sentence-agreement-boundary",
+            "title": "先辨结构，再用规则",
+            "explanation": "each + 单数名词和 each of + 复数名词在正式书面语中通常用单数谓语；each 放在复数主语后作补充时，谓语仍跟复数主语。news 在新闻、消息义中按单数处理，information 是不可数名词。neither of 后既有正式单数也有常见复数用法，本批不把这类差异强做成唯一答案。",
+            "examples": [
+              {
+                "sentence": "Each of the students has a separate folder.",
+                "translation": "每位学生都有单独的文件夹。",
+                "note": "each 是主语中心。"
+              },
+              {
+                "sentence": "The students each have a separate folder.",
+                "translation": "学生们各自有一个单独的文件夹。",
+                "note": "这里的主语是 students；each 不把谓语变成 has。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-sentence-03-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择与主语中心一致的形式。",
+            "context": "The cost of the new computers ___ higher than expected.",
+            "options": [
+              "is",
+              "are",
+              "be",
+              "being"
+            ],
+            "correctOption": 0,
+            "explanation": "The cost 是单数主语，用 is；不要受 computers 干扰。",
+            "source": "original",
+            "stageId": "cet4-sentence-03",
+            "analysis": {
+              "summary": "The cost 是单数主语，用 is；不要受 computers 干扰。",
+              "evidence": "The cost of the new computers ___ higher than expected.",
+              "knowledgePoints": [
+                "主语中心一致"
+              ],
+              "optionAnalysis": [
+                "The cost 是单数主语，用 is；不要受 computers 干扰。",
+                "computers 在 of 短语中，主语中心 cost 是单数。",
+                "这里没有情态动词或不定式结构，不能直接用 be。",
+                "being 单独不能构成这里的限定谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-03-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择正确形式。",
+            "context": "Each student ___ a copy of the reading list.",
+            "options": [
+              "receive",
+              "receives",
+              "receiving",
+              "to receive"
+            ],
+            "correctOption": 1,
+            "explanation": "Each student 按单数看待，receives 与其一致。",
+            "source": "original",
+            "stageId": "cet4-sentence-03",
+            "analysis": {
+              "summary": "Each student 按单数看待，receives 与其一致。",
+              "evidence": "Each student ___ a copy of the reading list.",
+              "knowledgePoints": [
+                "each 与单数"
+              ],
+              "optionAnalysis": [
+                "each student 是第三人称单数，一般现在时不能直接用 receive。",
+                "Each student 按单数看待，receives 与其一致。",
+                "receiving 单独不能作本句的限定谓语。",
+                "不定式不能直接充当这个陈述句的限定谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-03-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择正确形式。",
+            "context": "The students each ___ a copy of the reading list.",
+            "options": [
+              "receives",
+              "receiving",
+              "receive",
+              "to receive"
+            ],
+            "correctOption": 2,
+            "explanation": "The students 才是主语，each 在主语后作补充，因此用 receive。",
+            "source": "original",
+            "stageId": "cet4-sentence-03",
+            "analysis": {
+              "summary": "The students 才是主语，each 在主语后作补充，因此用 receive。",
+              "evidence": "The students each ___ a copy of the reading list.",
+              "knowledgePoints": [
+                "复数主语后的 each"
+              ],
+              "optionAnalysis": [
+                "主语是复数 students；后面的 each 不改变主语的数。",
+                "receiving 缺少构成限定谓语的助动词。",
+                "The students 才是主语，each 在主语后作补充，因此用 receive。",
+                "to receive 是不定式，不能直接作本句谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-03-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择与附加短语相符的形式。",
+            "context": "The editor, together with two writers, ___ the draft every Friday.",
+            "options": [
+              "check",
+              "checking",
+              "to check",
+              "checks"
+            ],
+            "correctOption": 3,
+            "explanation": "一般现在时的主语中心为 editor，用 checks。",
+            "source": "original",
+            "stageId": "cet4-sentence-03",
+            "analysis": {
+              "summary": "一般现在时的主语中心为 editor，用 checks。",
+              "evidence": "The editor, together with two writers, ___ the draft every Friday.",
+              "knowledgePoints": [
+                "together with 附加成分"
+              ],
+              "optionAnalysis": [
+                "together with 两名作者并未把主语 editor 变成复数。",
+                "checking 是非限定形式，这里不能独立作谓语。",
+                "这里需要限定谓语，而不是独立的不定式。",
+                "一般现在时的主语中心为 editor，用 checks。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-03-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择正确形式。",
+            "context": "The teacher and the student ___ discussing the report now.",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "be"
+            ],
+            "correctOption": 0,
+            "explanation": "两个不同的人组成复数主语；are discussing 表示正在讨论。",
+            "source": "original",
+            "stageId": "cet4-sentence-03",
+            "analysis": {
+              "summary": "两个不同的人组成复数主语；are discussing 表示正在讨论。",
+              "evidence": "The teacher and the student ___ discussing the report now.",
+              "knowledgePoints": [
+                "and 并列主语"
+              ],
+              "optionAnalysis": [
+                "两个不同的人组成复数主语；are discussing 表示正在讨论。",
+                "teacher 和 student 是两个不同的人，由 and 构成复数主语。",
+                "am 只与第一人称单数 I 搭配，不适用此主语。",
+                "陈述句现在进行时要用与主语一致的 are，不是原形 be。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-03-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择正确形式。",
+            "context": "The information in these messages ___ useful.",
+            "options": [
+              "are",
+              "is",
+              "were",
+              "have"
+            ],
+            "correctOption": 1,
+            "explanation": "information 在此按单数处理，用 is useful。",
+            "source": "original",
+            "stageId": "cet4-sentence-03",
+            "analysis": {
+              "summary": "information 在此按单数处理，用 is useful。",
+              "evidence": "The information in these messages ___ useful.",
+              "knowledgePoints": [
+                "不可数主语"
+              ],
+              "optionAnalysis": [
+                "information 为不可数名词；messages 只是修饰短语里的名词。",
+                "information 在此按单数处理，用 is useful。",
+                "were 在数上与这里的不可数主语不一致。",
+                "have 不能直接接形容词 useful 构成本句系表结构。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cet4-sentence-04",
+        "title": "被动结构：谁受到动作",
+        "goal": "结合受事主语、助动词与上下文解释被动，不只看一个分词。",
+        "kind": "grammar",
+        "minutes": 12,
+        "sections": [
+          {
+            "id": "c4-sentence-passive",
+            "title": "动作承受者可以成为主语",
+            "explanation": "常见被动结构是 be + 过去分词；be 随主语和时间变化，例如 was repaired、are checked。动作执行者不重要或未知时，可以不出现 by 短语。判断主动或被动要看动词与主语的关系，而不是主语是不是人：The students were invited 中，人也能是被邀请的对象。",
+            "examples": [
+              {
+                "sentence": "The forms were checked by two volunteers yesterday.",
+                "translation": "两名志愿者昨天检查了这些表格。",
+                "note": "形式上以 forms 为主语；were checked 表达过去的被动。"
+              },
+              {
+                "sentence": "Participants will be informed by email.",
+                "translation": "参与者将收到电子邮件通知。",
+                "note": "人是被通知的对象，will be informed 保留完整被动结构。"
+              }
+            ]
+          },
+          {
+            "id": "c4-sentence-passive-boundary",
+            "title": "区分谓语被动和名词后的分词",
+            "explanation": "情态动词后的被动用 can/must + be + done；现在完成时的被动用 have/has + been + done。The report published yesterday contains errors 中，published yesterday 修饰 report，contains 才是主句谓语。happen 这类不及物动词不能按这种方式改成 be happened；也不能仅凭主语不会主动做事就给任何动词加被动。",
+            "examples": [
+              {
+                "sentence": "The final version must be submitted before noon.",
+                "translation": "最终版本必须在中午前提交。",
+                "note": "must 后保留 be，submitted 是过去分词。"
+              },
+              {
+                "sentence": "The notice posted yesterday has been removed.",
+                "translation": "昨天贴出的通知已经被撤下了。",
+                "note": "posted yesterday 是修饰语；has been removed 是完整谓语。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "cet4-sentence-04-q01",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择保留过去时间和被动关系的形式。",
+            "context": "The invitations ___ by the office last Monday.",
+            "options": [
+              "were sent",
+              "are sent",
+              "were send",
+              "sent"
+            ],
+            "correctOption": 0,
+            "explanation": "复数 invitations 配 were，过去分词为 sent，组成 were sent。",
+            "source": "original",
+            "stageId": "cet4-sentence-04",
+            "analysis": {
+              "summary": "复数 invitations 配 were，过去分词为 sent，组成 were sent。",
+              "evidence": "The invitations ___ by the office last Monday.",
+              "knowledgePoints": [
+                "过去被动"
+              ],
+              "optionAnalysis": [
+                "复数 invitations 配 were，过去分词为 sent，组成 were sent。",
+                "are sent 是一般现在时，不符合 last Monday 的过去时间。",
+                "被动结构需要过去分词 sent，不是原形 send。",
+                "invitations 是被寄送的对象；sent 单独不能表达这里的被动谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-04-q02",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择完整的情态被动结构。",
+            "context": "All borrowed equipment must ___ before Friday.",
+            "options": [
+              "returned",
+              "be returned",
+              "be return",
+              "returning"
+            ],
+            "correctOption": 1,
+            "explanation": "设备被归还，must + be + returned 结构完整。",
+            "source": "original",
+            "stageId": "cet4-sentence-04",
+            "analysis": {
+              "summary": "设备被归还，must + be + returned 结构完整。",
+              "evidence": "All borrowed equipment must ___ before Friday.",
+              "knowledgePoints": [
+                "情态被动"
+              ],
+              "optionAnalysis": [
+                "must 后不能直接接过去分词，缺少 be。",
+                "设备被归还，must + be + returned 结构完整。",
+                "be 后需要过去分词 returned，不是 return 原形。",
+                "must returning 既不是情态主动结构，也不是被动结构。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-04-q03",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "哪一项是完整的主句谓语？",
+            "context": "The article published last week has been revised twice.",
+            "options": [
+              "published last week",
+              "last week",
+              "has been revised",
+              "The article"
+            ],
+            "correctOption": 2,
+            "explanation": "has been revised 是现在完成时被动；published last week 仅限定是哪篇文章。",
+            "source": "original",
+            "stageId": "cet4-sentence-04",
+            "analysis": {
+              "summary": "has been revised 是现在完成时被动；published last week 仅限定是哪篇文章。",
+              "evidence": "The article published last week has been revised twice.",
+              "knowledgePoints": [
+                "分词修饰与被动谓语"
+              ],
+              "optionAnalysis": [
+                "这部分后置修饰 article，不是主句的限定谓语。",
+                "这是时间短语，本身不能充当谓语。",
+                "has been revised 是现在完成时被动；published last week 仅限定是哪篇文章。",
+                "这是主语词组，而不是谓语。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-04-q04",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "下列哪一句正确？",
+            "context": "表达“一个技术问题在测试时发生了”。",
+            "options": [
+              "A technical problem was happened during the test.",
+              "A technical problem was happen during the test.",
+              "A technical problem happening during the test.",
+              "A technical problem happened during the test."
+            ],
+            "correctOption": 3,
+            "explanation": "happened 直接构成一般过去时，不需要额外加 was。",
+            "source": "original",
+            "stageId": "cet4-sentence-04",
+            "analysis": {
+              "summary": "happened 直接构成一般过去时，不需要额外加 was。",
+              "evidence": "表达“一个技术问题在测试时发生了”。",
+              "knowledgePoints": [
+                "不及物动词边界"
+              ],
+              "optionAnalysis": [
+                "happen 是不及物动词，这里不能构成 was happened。",
+                "was happen 不是正确的主动或被动结构。",
+                "happening 单独不能构成这个独立陈述句的限定谓语。",
+                "happened 直接构成一般过去时，不需要额外加 was。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-04-q05",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "根据句子，受到通知的是谁？",
+            "context": "The volunteers were informed of the change by the coordinator.",
+            "options": [
+              "志愿者。",
+              "协调员。",
+              "变化本身。",
+              "没有出现任何接受通知的人。"
+            ],
+            "correctOption": 0,
+            "explanation": "被动主语 volunteers 是受事，by 后的 coordinator 是执行者。",
+            "source": "original",
+            "stageId": "cet4-sentence-04",
+            "analysis": {
+              "summary": "被动主语 volunteers 是受事，by 后的 coordinator 是执行者。",
+              "evidence": "The volunteers were informed of the change by the coordinator.",
+              "knowledgePoints": [
+                "被动信息角色"
+              ],
+              "optionAnalysis": [
+                "被动主语 volunteers 是受事，by 后的 coordinator 是执行者。",
+                "by the coordinator 表示执行通知的人。",
+                "the change 是被告知的内容，不是接受通知的人。",
+                "主语 The volunteers 正是被通知的人。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          },
+          {
+            "id": "cet4-sentence-04-q06",
+            "language": "en",
+            "courseId": "path-cet4",
+            "module": "grammar",
+            "type": "grammar",
+            "level": "四级",
+            "difficulty": 3,
+            "prompt": "选择与单数主语一致的完成时被动。",
+            "context": "The final report ___ checked and is ready to send.",
+            "options": [
+              "have been",
+              "has been",
+              "has being",
+              "has"
+            ],
+            "correctOption": 1,
+            "explanation": "has been checked 表示报告已经被检查，与后面可以发送的结果相连。",
+            "source": "original",
+            "stageId": "cet4-sentence-04",
+            "analysis": {
+              "summary": "has been checked 表示报告已经被检查，与后面可以发送的结果相连。",
+              "evidence": "The final report ___ checked and is ready to send.",
+              "knowledgePoints": [
+                "完成时被动"
+              ],
+              "optionAnalysis": [
+                "report 为单数，完成时助动词应用 has。",
+                "has been checked 表示报告已经被检查，与后面可以发送的结果相连。",
+                "完成时被动应为 has been + checked，不是 has being。",
+                "has checked 会把报告写成执行检查者，不符合此处被动语义。"
+              ],
+              "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+            }
+          }
+        ]
+      }
+    ],
+    "review": [
+      {
+        "id": "cet4-sentence-review-q01",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选出这句话的主干。",
+        "context": "The proposal for a longer lunch break received strong support.",
+        "options": [
+          "The proposal received strong support.",
+          "A longer lunch break received the proposal.",
+          "Strong support proposed a break.",
+          "The proposal for support broke lunch."
+        ],
+        "correctOption": 0,
+        "explanation": "for a longer lunch break 修饰 proposal；主干为 proposal received support。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "for a longer lunch break 修饰 proposal；主干为 proposal received support。",
+          "evidence": "The proposal for a longer lunch break received strong support.",
+          "knowledgePoints": [
+            "单元测验主干"
+          ],
+          "optionAnalysis": [
+            "for a longer lunch break 修饰 proposal；主干为 proposal received support。",
+            "这交换了提议与午休的语法角色。",
+            "这把宾语误作主语，并改变了原句动作。",
+            "这拼接了无关动作，不保留原句的主谓宾。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q02",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择与时间一致的形式。",
+        "context": "The office ___ its address in 2020.",
+        "options": [
+          "has changed",
+          "changed",
+          "changing",
+          "changes"
+        ],
+        "correctOption": 1,
+        "explanation": "2020 年的事件使用一般过去时 changed。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "2020 年的事件使用一般过去时 changed。",
+          "evidence": "The office ___ its address in 2020.",
+          "knowledgePoints": [
+            "单元测验过去时间"
+          ],
+          "optionAnalysis": [
+            "in 2020 是已结束的明确过去时间，不与现在完成时直接搭配此事件。",
+            "2020 年的事件使用一般过去时 changed。",
+            "分词单独不能充当这里的限定谓语。",
+            "一般现在时不表达这里特定的 2020 年事件。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q03",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择正确的主谓一致形式。",
+        "context": "The list of available workshops ___ on the website.",
+        "options": [
+          "are",
+          "being",
+          "is",
+          "have"
+        ],
+        "correctOption": 2,
+        "explanation": "The list 是主语，of available workshops 是修饰成分。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "The list 是主语，of available workshops 是修饰成分。",
+          "evidence": "The list of available workshops ___ on the website.",
+          "knowledgePoints": [
+            "单元测验主语中心"
+          ],
+          "optionAnalysis": [
+            "主语中心 list 为单数，不能跟 workshops 取复数。",
+            "being 单独不能构成主句限定谓语。",
+            "The list 是主语，of available workshops 是修饰成分。",
+            "have 不能直接接 on the website 表示这个位置状态。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q04",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择与复数主语相符的形式。",
+        "context": "The researchers each ___ a different part of the project.",
+        "options": [
+          "manages",
+          "managing",
+          "to manage",
+          "manage"
+        ],
+        "correctOption": 3,
+        "explanation": "researchers 是复数主语，each 作补充，因此用 manage。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "researchers 是复数主语，each 作补充，因此用 manage。",
+          "evidence": "The researchers each ___ a different part of the project.",
+          "knowledgePoints": [
+            "单元测验 each 位置"
+          ],
+          "optionAnalysis": [
+            "each 位于复数主语之后，不把 researchers 改成单数。",
+            "缺少限定谓语需要的助动词或动词形式。",
+            "不定式不能单独充当这里的主句谓语。",
+            "researchers 是复数主语，each 作补充，因此用 manage。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q05",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "哪件事发生得更早？",
+        "context": "When Nora reached the desk, the assistant had already printed the tickets.",
+        "options": [
+          "助理打印好票。",
+          "Nora 到达服务台。",
+          "Nora 明天退票。",
+          "无法判断两个已述事件的先后。"
+        ],
+        "correctOption": 0,
+        "explanation": "过去完成时把打印完成放在到达之前。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "过去完成时把打印完成放在到达之前。",
+          "evidence": "When Nora reached the desk, the assistant had already printed the tickets.",
+          "knowledgePoints": [
+            "单元测验事件顺序"
+          ],
+          "optionAnalysis": [
+            "过去完成时把打印完成放在到达之前。",
+            "到达是参照点；had already printed 发生在它之前。",
+            "句中没有退票或明天的信息。",
+            "had already printed 明确表示比 reached 更早。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q06",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "选择完整的被动表达。",
+        "context": "The application can ___ online.",
+        "options": [
+          "completed",
+          "be completed",
+          "be complete",
+          "completing"
+        ],
+        "correctOption": 1,
+        "explanation": "申请是被完成的对象，情态被动为 can be completed。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "申请是被完成的对象，情态被动为 can be completed。",
+          "evidence": "The application can ___ online.",
+          "knowledgePoints": [
+            "单元测验情态被动"
+          ],
+          "optionAnalysis": [
+            "can 后缺少构成被动的 be。",
+            "申请是被完成的对象，情态被动为 can be completed。",
+            "complete 在此是完成这一动作，需要过去分词 completed。",
+            "can completing 不能构成正确的限定谓语。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q07",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "哪一项是主句谓语？",
+        "context": "The documents stored in this folder are reviewed monthly.",
+        "options": [
+          "stored in this folder",
+          "this folder",
+          "are reviewed",
+          "monthly"
+        ],
+        "correctOption": 2,
+        "explanation": "documents 作主语，are reviewed 为被动谓语，stored 不是主句谓语。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "documents 作主语，are reviewed 为被动谓语，stored 不是主句谓语。",
+          "evidence": "The documents stored in this folder are reviewed monthly.",
+          "knowledgePoints": [
+            "单元测验谓语分层"
+          ],
+          "optionAnalysis": [
+            "这是修饰 documents 的过去分词短语。",
+            "这是介词短语内部的名词词组。",
+            "documents 作主语，are reviewed 为被动谓语，stored 不是主句谓语。",
+            "monthly 是频率状语，不是限定谓语。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      },
+      {
+        "id": "cet4-sentence-review-q08",
+        "language": "en",
+        "courseId": "path-cet4",
+        "module": "grammar",
+        "type": "grammar",
+        "level": "四级",
+        "difficulty": 3,
+        "prompt": "根据句子，可以确定什么？",
+        "context": "Aya worked at the museum for three years before leaving in 2019.",
+        "options": [
+          "她现在仍在博物馆工作，因为有 for。",
+          "她在 2019 年才开始这三年的工作。",
+          "句子必须改成现在完成时才合语法。",
+          "她在博物馆的这段工作经历在 2019 年结束。"
+        ],
+        "correctOption": 3,
+        "explanation": "worked、before leaving 与具体过去时间共同确定已结束的经历。",
+        "source": "original",
+        "stageId": "cet4-sentence-review",
+        "analysis": {
+          "summary": "worked、before leaving 与具体过去时间共同确定已结束的经历。",
+          "evidence": "Aya worked at the museum for three years before leaving in 2019.",
+          "knowledgePoints": [
+            "单元测验时长边界"
+          ],
+          "optionAnalysis": [
+            "before leaving in 2019 表明这段经历已结束，for 不保证延续。",
+            "2019 年是离开时间，不是开始时间。",
+            "过去时可以与 for 表示已结束的时长，不必改成完成时。",
+            "worked、before leaving 与具体过去时间共同确定已结束的经历。"
+          ],
+          "strategy": "先判断要表达的意思，再根据主语、结构与语境选形式；读完其他选项的区别。"
+        }
+      }
+    ]
+  }
+}

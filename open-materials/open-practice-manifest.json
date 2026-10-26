@@ -1,0 +1,51 @@
+{
+  "importedAt": "2026-10-13",
+  "updatedAt": "2026-10-14",
+  "grammarCommit": "862062deafccfbb0aa1a95e5c77300f31c4226c1",
+  "inputs": [
+    {
+      "file": "nouns.py",
+      "url": "https://raw.githubusercontent.com/Arikimizord/english-grammar-bilingual-slides/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+      "sha256": "62ec45a7952cbd3674de5c292c804343fc89e379aaeddb623f29fe5323c15005"
+    },
+    {
+      "file": "articles.py",
+      "url": "https://raw.githubusercontent.com/Arikimizord/english-grammar-bilingual-slides/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+      "sha256": "ec34f9116496faf95f9e539c7dea04467df2b9cd6ab51f946d1e3bd28e2dc5b4"
+    },
+    {
+      "file": "pronouns.py",
+      "url": "https://raw.githubusercontent.com/Arikimizord/english-grammar-bilingual-slides/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+      "sha256": "ab2fe5d2c73372525b0e16c557dabb59723973be9addb1c87baf028a7f877d56"
+    },
+    {
+      "file": "prepositions.py",
+      "url": "https://raw.githubusercontent.com/Arikimizord/english-grammar-bilingual-slides/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+      "sha256": "0f9998725f9c76124550c6c510ae7c3e7b70df42fb1e507f25bb3fe48b78167d"
+    },
+    {
+      "file": "dev-v1.1.json",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+      "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9"
+    }
+  ],
+  "licenses": [
+    "CC BY-SA 4.0"
+  ],
+  "grammarLessons": 4,
+  "grammarQuestions": 24,
+  "readingPassages": 6,
+  "readingQuestions": 18,
+  "editorialRejections": [
+    "Apollo_program opening questions: conflicting annotations",
+    "Ambiguous music class grammar item",
+    "Absolute inanimate possessive and f/fe plural rules revised",
+    "Absolute between-two-only and pronoun-position rules revised",
+    "Neither-of single-correct-option exercise excluded"
+  ],
+  "commonVoice": {
+    "status": "not-imported",
+    "reason": "Reviewed release has an additional no-rehosting condition; download/redistribution scope must be clarified.",
+    "url": "https://mozilladatacollective.com/datasets/cmrt6zrob000zmm07yqwjlpwi"
+  }
+}

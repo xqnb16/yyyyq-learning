@@ -1,0 +1,922 @@
+{
+  "lessons": [
+    {
+      "id": "open-nouns",
+      "courseLessonId": "open-nouns",
+      "language": "en",
+      "level": "预备",
+      "auxiliary": true,
+      "order": 1,
+      "title": "名词：能不能数，属于谁",
+      "subtitle": "公开双语语法内容 · 审校改编小样",
+      "minutes": 12,
+      "objectives": [
+        "区分可数与不可数",
+        "使用量词和不规则复数",
+        "辨认所有格"
+      ],
+      "sections": [
+        {
+          "id": "open-nouns-count",
+          "title": "先判断能否计数",
+          "explanation": "可数名词常配 many / few；不可数名词常配 much / little。homework、luggage、advice 在这些常见义项中不可数。用 a piece of advice、two cups of milk tea 时，计数的是 piece 或 cup。",
+          "examples": [
+            {
+              "sentence": "I have many friends but little free time.",
+              "translation": "我有很多朋友，但空闲时间很少。"
+            },
+            {
+              "sentence": "Let me give you a piece of advice.",
+              "translation": "让我给你一条建议。"
+            }
+          ]
+        },
+        {
+          "id": "open-nouns-plural",
+          "title": "复数与所属关系",
+          "explanation": "规则复数看词尾，不规则复数逐词记忆，如 child → children、tooth → teeth。部分 f / fe 结尾名词变 -ves，但不是全部，例如 roof → roofs。所有格可以表示人、组织、时间等所属关系；不能把无生命名词一律禁止使用 ’s。",
+          "examples": [
+            {
+              "sentence": "Brush your teeth twice a day.",
+              "translation": "每天刷两次牙。"
+            },
+            {
+              "sentence": "Is this Lisa’s lunch box?",
+              "translation": "这是丽莎的饭盒吗？"
+            }
+          ],
+          "tip": "已修正原课件中把所有格和 f / fe 复数写成绝对规律的简化说法。"
+        }
+      ],
+      "practiceQuestionIds": [
+        "open-nouns-q1",
+        "open-nouns-q2",
+        "open-nouns-q3",
+        "open-nouns-q4",
+        "open-nouns-q5",
+        "open-nouns-q6"
+      ],
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "open-articles",
+      "courseLessonId": "open-articles",
+      "language": "en",
+      "level": "预备",
+      "auxiliary": true,
+      "order": 2,
+      "title": "冠词：a、an、the 与不填",
+      "subtitle": "公开双语语法内容 · 审校改编小样",
+      "minutes": 12,
+      "objectives": [
+        "按读音选择 a / an",
+        "判断是否特指",
+        "识别常见零冠词搭配"
+      ],
+      "sections": [
+        {
+          "id": "open-articles-sound",
+          "title": "a / an 看发音，不看字母",
+          "explanation": "首次引入非特指的单数可数名词时常用 a / an。元音音素开头用 an，辅音音素开头用 a：an hour、an honest girl，但 a university。",
+          "examples": [
+            {
+              "sentence": "A classmate lent me an umbrella.",
+              "translation": "一位同学借给我一把雨伞。"
+            },
+            {
+              "sentence": "I waited for an hour.",
+              "translation": "我等了一个小时。"
+            }
+          ]
+        },
+        {
+          "id": "open-articles-specific",
+          "title": "特指与常见固定用法",
+          "explanation": "再次提到或双方知道具体对象时常用 the。泛指三餐、球类、语言，以及 by bus 等交通方式通常不加冠词；特指时用法可能变化，不能死记成永远不加。play the guitar 和 play football 是本课采用的常见标准表达。",
+          "examples": [
+            {
+              "sentence": "I got a package; the package was heavy.",
+              "translation": "我收到了一个包裹；那个包裹很重。"
+            },
+            {
+              "sentence": "They play basketball after class.",
+              "translation": "他们课后打篮球。"
+            }
+          ],
+          "tip": "未导入原稿有歧义的 music class 填空；也不把 by the bus 直接解释成“乘那辆车”，这种意思通常用 on / take the bus。"
+        }
+      ],
+      "practiceQuestionIds": [
+        "open-articles-q1",
+        "open-articles-q2",
+        "open-articles-q3",
+        "open-articles-q4",
+        "open-articles-q5",
+        "open-articles-q6"
+      ],
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "open-pronouns",
+      "courseLessonId": "open-pronouns",
+      "language": "en",
+      "level": "预备",
+      "auxiliary": true,
+      "order": 3,
+      "title": "代词：谁在做，属于谁",
+      "subtitle": "公开双语语法内容 · 审校改编小样",
+      "minutes": 12,
+      "objectives": [
+        "区分主格与宾格",
+        "区分 my 与 mine",
+        "使用反身代词与邀请中的 some"
+      ],
+      "sections": [
+        {
+          "id": "open-pronouns-role",
+          "title": "先判断代词的句法角色",
+          "explanation": "主语通常用 I / we / they，动词或介词的宾语用 me / us / them。不要只靠“在动词前还是后”判断：问句、倒装或前置宾语会改变位置，角色才是关键。并列主语 My roommate and I work ... 用 I。",
+          "examples": [
+            {
+              "sentence": "We often study in the library.",
+              "translation": "我们常在图书馆学习。"
+            },
+            {
+              "sentence": "The tutor helped us a lot.",
+              "translation": "导师帮了我们很多。"
+            }
+          ]
+        },
+        {
+          "id": "open-pronouns-ownership",
+          "title": "my 带名词，mine 可以独立用",
+          "explanation": "my book 中 my 限定名词；This book is mine 中 mine 独立表示“我的那本”。by myself 表独自，enjoy ourselves 表玩得开心；She made the cake herself 强调亲手做，但不必意味着没人帮忙。邀请或提供某物的问句也常用 some。",
+          "examples": [
+            {
+              "sentence": "This is my dorm; that is yours.",
+              "translation": "这是我的宿舍；那是你的。"
+            },
+            {
+              "sentence": "Help yourself to some fruit.",
+              "translation": "请随便吃些水果。"
+            }
+          ],
+          "tip": "neither of 后口语中也可见复数动词，不能把单数形式说成所有语境唯一正确；本课不导入这一歧义选项。"
+        }
+      ],
+      "practiceQuestionIds": [
+        "open-pronouns-q1",
+        "open-pronouns-q2",
+        "open-pronouns-q3",
+        "open-pronouns-q4",
+        "open-pronouns-q5",
+        "open-pronouns-q6"
+      ],
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      }
+    },
+    {
+      "id": "open-prepositions",
+      "courseLessonId": "open-prepositions",
+      "language": "en",
+      "level": "预备",
+      "auxiliary": true,
+      "order": 4,
+      "title": "介词：时间、地点与固定搭配",
+      "subtitle": "公开双语语法内容 · 审校改编小样",
+      "minutes": 12,
+      "objectives": [
+        "区分 at / on / in 的常见时间用法",
+        "表达地点与方位",
+        "区分介词 to 与不定式 to"
+      ],
+      "sections": [
+        {
+          "id": "open-prepositions-time",
+          "title": "时刻、具体日子和较长时段",
+          "explanation": "钟点通常用 at，具体日期和星期通常用 on，月份、年份、季节通常用 in。next Monday、this summer、every day 等表达通常不用再加时间介词；不要把规则机械套在所有时间短语前。",
+          "examples": [
+            {
+              "sentence": "The class starts at eight. We rest on Sunday.",
+              "translation": "课程八点开始，我们周日休息。"
+            },
+            {
+              "sentence": "We have finals in July.",
+              "translation": "我们七月有期末考试。"
+            }
+          ]
+        },
+        {
+          "id": "open-prepositions-place",
+          "title": "地点与固定搭配要看语境",
+          "explanation": "at 常把地点看作活动点，on 常表示表面，in 常表示内部或地区。还要整体记 good at、afraid of、interested in 和 look forward to doing。between 可以表达多个清楚区分的对象之间的关系，不是只要超过两者就必须改 among。",
+          "examples": [
+            {
+              "sentence": "I waited at the bus stop. My keys are on the desk.",
+              "translation": "我在公交站等候，钥匙在桌上。"
+            },
+            {
+              "sentence": "I look forward to hearing from you.",
+              "translation": "我期待收到你的来信。"
+            }
+          ],
+          "tip": "look forward to 的 to 是介词，所以后面的动作表达用 hearing，不是 hear。"
+        }
+      ],
+      "practiceQuestionIds": [
+        "open-prepositions-q1",
+        "open-prepositions-q2",
+        "open-prepositions-q3",
+        "open-prepositions-q4",
+        "open-prepositions-q5",
+        "open-prepositions-q6"
+      ],
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "open-nouns-q1",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "How ___ luggage do you have?",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correctOption": 0,
+      "explanation": "luggage 在此指行李，为不可数名词。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m5-noun-count/mp-1"
+    },
+    {
+      "id": "open-nouns-q2",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "I need three ___ of paper for the poster.",
+      "options": [
+        "pieces",
+        "piece"
+      ],
+      "correctOption": 0,
+      "explanation": "计数的是 piece，three 后量词用复数。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m5-noun-count/mp-2"
+    },
+    {
+      "id": "open-nouns-q3",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "Two ___ are on sale at the store.",
+      "options": [
+        "knifes",
+        "knives"
+      ],
+      "correctOption": 1,
+      "explanation": "knife 的复数是 knives。不要推广为所有 f / fe 结尾都这样变。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m5-noun-plural/mp-1"
+    },
+    {
+      "id": "open-nouns-q4",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "Brush your ___ twice a day.",
+      "options": [
+        "tooths",
+        "teeth"
+      ],
+      "correctOption": 1,
+      "explanation": "tooth 的不规则复数为 teeth。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m5-noun-plural/mp-2"
+    },
+    {
+      "id": "open-nouns-q5",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "How ___ money do you need for the train ticket?",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correctOption": 0,
+      "explanation": "money 在此不可数，用 much。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m5-noun-practice/1"
+    },
+    {
+      "id": "open-nouns-q6",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "Several ___ are feeding fish by the lake.",
+      "options": [
+        "child",
+        "children"
+      ],
+      "correctOption": 1,
+      "explanation": "several 后用复数 children。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/nouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m5-noun-practice/2"
+    },
+    {
+      "id": "open-articles-q1",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "I waited for ___ hour.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "correctOption": 1,
+      "explanation": "hour 的 h 不发音，起始音素是元音。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m6-art-aan/mp-1"
+    },
+    {
+      "id": "open-articles-q2",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "She is ___ honest girl.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "correctOption": 1,
+      "explanation": "honest 的 h 不发音，用 an。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m6-art-aan/mp-2"
+    },
+    {
+      "id": "open-articles-q3",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "There is ___ \"s\" in the word \"bus\".",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "不填"
+      ],
+      "correctOption": 1,
+      "explanation": "字母 s 读 /es/，起始音素是元音。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m6-art-practice/1"
+    },
+    {
+      "id": "open-articles-q4",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "___ moon looks beautiful tonight.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "不填"
+      ],
+      "correctOption": 2,
+      "explanation": "此处指大家熟悉的月亮，用 The。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m6-art-practice/2"
+    },
+    {
+      "id": "open-articles-q5",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "He goes to school by ___ subway every day.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "不填"
+      ],
+      "correctOption": 3,
+      "explanation": "by + 交通方式通常不加冠词。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m6-art-practice/3"
+    },
+    {
+      "id": "open-articles-q6",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "She plays ___ guitar and ___ football.",
+      "options": [
+        "the / 不填",
+        "不填 / the",
+        "a / a",
+        "the / the"
+      ],
+      "correctOption": 0,
+      "explanation": "本课采用乐器 the guitar、球类零冠词 football 的常见用法。选项组合为本站添加。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/articles.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m6-art-practice/4"
+    },
+    {
+      "id": "open-pronouns-q1",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "___ am on duty today.",
+      "options": [
+        "I",
+        "Me"
+      ],
+      "correctOption": 0,
+      "explanation": "代词作主语，用 I；与 am 搭配。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m7-pron-personal/mp-1"
+    },
+    {
+      "id": "open-pronouns-q2",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "The coach chose ___.",
+      "options": [
+        "they",
+        "them"
+      ],
+      "correctOption": 1,
+      "explanation": "chose 的宾语用 them。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m7-pron-personal/mp-2"
+    },
+    {
+      "id": "open-pronouns-q3",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "A friend of ___ called just now.",
+      "options": [
+        "mine",
+        "my"
+      ],
+      "correctOption": 0,
+      "explanation": "a friend of mine 是我的一个朋友；my 后通常还需名词。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m7-pron-possessive/mp-1"
+    },
+    {
+      "id": "open-pronouns-q4",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "We enjoyed ___ at the party.",
+      "options": [
+        "us",
+        "ourselves"
+      ],
+      "correctOption": 1,
+      "explanation": "enjoy oneself 固定搭配；we 对应 ourselves。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m7-pron-possessive/mp-2"
+    },
+    {
+      "id": "open-pronouns-q5",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "Would you like ___ coffee?",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correctOption": 0,
+      "explanation": "在提供饮品的邀请语境中，some 是自然选择；不是所有问句都用 any。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m7-pron-indefinite/mp-1"
+    },
+    {
+      "id": "open-pronouns-q6",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "My roommate and ___ work part-time at the mall.",
+      "options": [
+        "me",
+        "I"
+      ],
+      "correctOption": 1,
+      "explanation": "并列作主语用 I，判断依据是角色而不是机械词序。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/pronouns.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m7-pron-practice/1"
+    },
+    {
+      "id": "open-prepositions-q1",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "Our exam is ___ June 5th.",
+      "options": [
+        "in",
+        "on"
+      ],
+      "correctOption": 1,
+      "explanation": "具体日期 June 5th 用 on。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m24-prep-time/mp-1"
+    },
+    {
+      "id": "open-prepositions-q2",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "We have finals ___ July.",
+      "options": [
+        "in",
+        "on"
+      ],
+      "correctOption": 0,
+      "explanation": "月份 July 用 in。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m24-prep-time/mp-2"
+    },
+    {
+      "id": "open-prepositions-q3",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "I will meet you ___ the school gate.",
+      "options": [
+        "in",
+        "at"
+      ],
+      "correctOption": 1,
+      "explanation": "在校门口碰头，通常用 at。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m24-prep-place/mp-1"
+    },
+    {
+      "id": "open-prepositions-q4",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "Our city is famous ___ its food.",
+      "options": [
+        "for",
+        "of"
+      ],
+      "correctOption": 0,
+      "explanation": "be famous for 表因某物而出名。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m24-prep-fixed/mp-1"
+    },
+    {
+      "id": "open-prepositions-q5",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "I look forward to ___ from you.",
+      "options": [
+        "hear",
+        "hearing"
+      ],
+      "correctOption": 1,
+      "explanation": "to 是介词，用 hearing。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m24-prep-fixed/mp-2"
+    },
+    {
+      "id": "open-prepositions-q6",
+      "language": "en",
+      "courseId": "en-grammar",
+      "module": "grammar",
+      "type": "grammar",
+      "level": "基础",
+      "difficulty": 1,
+      "prompt": "选择自然的表达。",
+      "context": "The meeting starts ______ 9:00.",
+      "options": [
+        "at",
+        "on"
+      ],
+      "correctOption": 0,
+      "explanation": "钟点时刻用 at。",
+      "source": "cc-by-sa",
+      "sourceInfo": {
+        "title": "Bilingual English Grammar Courseware",
+        "publisher": "Adam Wang",
+        "url": "https://github.com/Arikimizord/english-grammar-bilingual-slides/blob/862062deafccfbb0aa1a95e5c77300f31c4226c1/content/prepositions.py",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Wang · english-grammar-bilingual-slides · CC BY-SA 4.0",
+        "adaptationNote": "教学内容小样改编；已修订绝对化规则并补中文释义，未复制演示模板。题干与原答案保留，选项组合与中文解析可能经本站调整。本文件中改编内容继续以 CC BY-SA 4.0 提供。"
+      },
+      "sourceQuestionId": "m24-prep-practice/1"
+    }
+  ]
+}
