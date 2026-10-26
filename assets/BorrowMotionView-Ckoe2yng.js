@@ -1,0 +1,1 @@
+import{d as a,c as o,a as n,L as t,b as s,o as c,l as r,_ as i}from"./index-DFoM4d8J.js";const l={class:"living-study","aria-label":"主视觉动效小样"},_=a({__name:"BorrowMotionView",setup(u){const e=s(()=>r.activeLanguage.value);return(g,p)=>(c(),o("section",l,[n(t,{language:e.value,preview:""},null,8,["language"])]))}}),m=i(_,[["__scopeId","data-v-72459b1f"]]);export{m as default};
